@@ -2,6 +2,7 @@ import React from 'react';
 import { BotonesSubirPedidos } from './complementos/botones/BotonesSubirPedidos';
 import { Carrusel } from './complementos/carrusel .01/Carrusel';
 import { CarruselIMG } from './complementos/carrusel/CarruselIMG';
+import { FooterMovil } from './complementos/footer/FooterMovil';
 import { PiePagina } from './complementos/footer/PiePagina';
 import { SeccionAccesorios } from './complementos/secciones/accesorios/SeccionAccesorios';
 import { SeccionCrochets } from './complementos/secciones/crochets/SeccionCrochets';
@@ -26,6 +27,7 @@ export const AppCentral = () => {
             <SeccionAccesorios />
             <SeccionVarios />
             <BotonesSubirPedidos />
+            <FooterMovil />
             <PiePagina />
 
         </div>

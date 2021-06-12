@@ -951,6 +951,41 @@ br{
     font-weight: 400;
 }
 
+.footer-movil{
+    background-color: #2e2e2e;
+}
+
+.footer-logo{
+    text-align: center;
+}
+
+.footer-contacto p{
+    color: #838383;
+    padding-top: 10px;
+}
+
+.footer-contacto label{
+    font-size: 30px;
+    color: #c7c7c7;
+}
+.footer-logo img{
+    text-align: center;
+    border-radius: 100%;
+    padding: 25px;
+    width: 50%;
+}
+
+.footer-copy{
+    background-color: #000000;
+    color: #838383;
+    font-size: 15px;
+}
+
+.footer-copy a{
+    color: #c7c7c7;
+}
+
+
 /*-----------------------------------------------------------------------------------------------------*/
 /*-----------------------------------------------------------------------------------------------------*/
 
