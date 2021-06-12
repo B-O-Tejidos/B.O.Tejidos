@@ -1,5 +1,6 @@
 import React from 'react';
 import { BotonesSubirPedidos } from './complementos/botones/BotonesSubirPedidos';
+import { Carrusel } from './complementos/carrusel .01/Carrusel';
 import { CarruselIMG } from './complementos/carrusel/CarruselIMG';
 import { PiePagina } from './complementos/footer/PiePagina';
 import { SeccionAccesorios } from './complementos/secciones/accesorios/SeccionAccesorios';
@@ -15,6 +16,7 @@ export const AppCentral = () => {
     return (
         <div>
             
+            <Carrusel />
             <CarruselIMG />
             <SeccionTejidos />
             <SeccionLanas />
