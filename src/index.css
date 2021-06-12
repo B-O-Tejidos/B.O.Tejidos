@@ -1216,7 +1216,7 @@ br{
         padding-right: 10px;
     }
     .titulo h2{
-        font-size: 79px;
+        font-size: 75px;
         font-weight: 500;
     }
     .lanas{
@@ -1251,10 +1251,56 @@ br{
     .navbar .contactos{
         align-items: center;
     }
+    #footer{
+        display: none;
+    }
+    #pie-footer{
+        display: none;
+    }
 }
 
-@media ( max-width: 300px ) {
+@media ( max-width: 400px ) {
+    .logo{
+        margin-top: 80px;
+    }
+    .titulo h2{
+        font-size: 69px;
+        font-weight: 500;
+    }
+    .btn-pedido{
+        align-items: center;
+        text-align: center;
+        margin-right: 6%;
+    
+    }
+    .navbar .contactos{
+        margin-right: 5px;
+    }
+}
 
+@media ( max-width: 350px ) {
+    .titulo h2{
+        font-size: 60px;
+        font-weight: 500;
+    }
+    .listado ul li a{
+        font-size: 20px;
+    }
+    .btn-pedido{
+        align-items: center;
+        text-align: center;
+        margin-right: 21%;
+    
+    }
+}
+
+@media ( max-width: 320px ) {
+    .btn-pedido{
+        align-items: center;
+        text-align: center;
+        margin-right: 32%;
+    
+    }
 }
 
 /*-----------------------------------------------------------------------------------------------------*/
