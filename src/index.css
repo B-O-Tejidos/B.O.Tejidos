@@ -48,6 +48,8 @@ body{
 /*-----------------------------------------------------------------------------------------------------*/
 /*-----------------------------------------------------------------------------------------------------*/
 
+    /*-- PRELOADER DE LA PAGINA --*/
+
 .preloader {
     background-color: #2e2e2e;
     position: fixed;
@@ -105,6 +107,8 @@ body{
 
 /*-----------------------------------------------------------------------------------------------------*/
 /*-----------------------------------------------------------------------------------------------------*/
+
+    /*-- LOGO DE LA PAGINA --*/
 
 .logo{
     text-align: center;
@@ -831,7 +835,7 @@ tbody tr td a:hover{
     flex: 0 0 33.33%;
     max-width: 33.33%;
     position: relative;
-    padding: 20px;
+    padding: 10px;
 }
 
 .row .col-md-4 .pilar{
@@ -930,6 +934,16 @@ br{
 /*-----------------------------------------------------------------------------------------------------*/
 /*-----------------------------------------------------------------------------------------------------*/
 
+#footer .footer-logo{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#footer .footer-logo img{
+    width: 20%;
+}
+
 .footer1{
     position: fixed;
     right: 0px;
@@ -952,6 +966,7 @@ br{
 }
 
 .footer-movil{
+    display: none;
     background-color: #2e2e2e;
 }
 
@@ -1093,6 +1108,9 @@ br{
     }
     .model a{
         margin-top: 30px;
+    }
+    .footer-movil{
+        display: block;
     }
 
 }
@@ -1325,6 +1343,10 @@ br{
         position: relative;
         padding-left: 8px;
         padding-right: 8px;
+    }
+    .galerias .movil{
+        padding-left: 30px;
+        padding-right: 30px;
     }
     .btn-pedido button{
         padding-top: 7px;

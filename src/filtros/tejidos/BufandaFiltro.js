@@ -10,7 +10,7 @@ export const BufandaFiltro = () => {
             
             <IconoPagina />
 
-            <div className="items">
+            <div className="movil items">
                             <div className="iner">
                                 <div className="caja">
                                     <img src="https://i.pinimg.com/474x/94/55/1d/94551dcba764301d8cd2dfa0ba2d077d.jpg" alt=""/>
@@ -28,7 +28,7 @@ export const BufandaFiltro = () => {
                             </div>
                         </div>
 
-                        <div className="items">
+                        <div className="movil items">
                             <div className="iner">
                                 <div className="caja">
                                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyCHNVntW4t6ofGtgPHPDe5ttC6pTVgpvUQuk_sPFo-HN6xyOMr7SBMhAI8uJyGWfR6Z0&usqp=CAU" alt=""/>

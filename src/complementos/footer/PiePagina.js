@@ -6,12 +6,15 @@ export const PiePagina = () => {
         <div>
             
             <div id="footer">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="titulo">
+            <div className='footer-logo'>
+                        <img src='https://res.cloudinary.com/dy1o5vcd8/image/upload/v1623457255/B.O.Tejido/logo_c9yz4f.jpg'/>
+                    </div>
+                <div className="row">
+                    <div className="col-md-4">
+                        <div className="titulo">
                             <h1>Mas informacion</h1>
                         </div>
-                        <div class="texto">
+                        <div className="texto">
                             <p>
                                 Esta compañia se dedica a la aventa de software integro 
                                 con un conjunto de cosas que no se lo que estoy escribiendo, 
@@ -20,59 +23,57 @@ export const PiePagina = () => {
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="titulo">
+                    <div className="col-md-4">
+                        <div className="titulo">
                             <h1>Redes Sociales</h1>
                         </div>
-                        <div class="redes-sociales">
-                            <div class="pilar">
-                                <i class="fab fa-facebook"></i>
+                        <div className="redes-sociales">
+                            <div className="pilar">
+                                <i className="fab fa-facebook"></i>
                                 <p>Siguenos en Facebook</p>
                             </div>
-                            <div class="pilar">
-                                <i class="fab fa-instagram"></i>
+                            <div className="pilar">
+                                <i className="fab fa-instagram"></i>
                                 <p>Siguenos en Instagram</p>
                             </div>
-                            <div class="pilar">
-                                <i class="fab fa-whatsapp"></i>
+                            <div className="pilar">
+                                <i className="fab fa-whatsapp"></i>
                                 <p>Escribenos al WhatsApp</p>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="titulo">
+                    </div>
+                    <div className="col-md-4">
+                        <div className="titulo">
                             <h1>Contactos</h1>
                         </div>
-                        <div class="redes-sociales">
-                            <div class="pilar">
-                                <i class="fas fa-home"></i>
+                        <div className="redes-sociales">
+                            <div className="pilar">
+                                <i className="fas fa-home"></i>
                                 <p>
-                                    Santiago
+                                    Comandante Enrique Faverio #781
                                     <br />
-                                    Comuna de Punte Alto
+                                    Villa: Puente Alto
                                     <br /> 
-                                    Enrique Faverio
-                                    <br /> 
-                                    Casa: #781
+                                    Comuna: Puente Alto
                                 </p>
                             </div>
-                            <div class="pilar">
-                                <i class="fas fa-mobile-alt"></i>
-                                <p> +569-9313-9457</p>
+                            <div className="pilar">
+                                <i className="fas fa-mobile-alt"></i>
+                                <p>  +569-9313-9457</p>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
         </div>
 
         <div id="pie-footer">
-            <div class="contenido">
-                <div class="row">
-                    <div class="col-md-12">
-                        <p class="titulo-footer">
+            <div className="contenido">
+                <div className="row">
+                    <div className="col-md-12">
+                        <p className="titulo-footer">
                             &copy; 2021 Todo los Derechos Reservados | <a href="">B.O. Tejidos</a>
                         </p>
-                        <p class="span-titulo">
+                        <p className="span-titulo">
                             <a href="">Informacion Compañia</a> | <a href="">Privacidad y Politica</a> | <a href="">Terminos y Condiciones</a> 
                         </p>
                     </div>

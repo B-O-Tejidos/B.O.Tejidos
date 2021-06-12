@@ -7,7 +7,7 @@ export const ChalecoFiltro = () => {
     return (
         <div className="galerias">
             
-            <div className="items">
+            <div className="movil items">
                 <div className="iner">
                     <div className="caja">
                         <img src="http://kipu.cl/imagenes/productos/507/med.jpg" alt="" />
@@ -25,7 +25,7 @@ export const ChalecoFiltro = () => {
                 </div>    
             </div>
 
-            <div className="items">
+            <div className="movil items">
                             <div className="iner">
                                 <div className="caja">
                                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyCHNVntW4t6ofGtgPHPDe5ttC6pTVgpvUQuk_sPFo-HN6xyOMr7SBMhAI8uJyGWfR6Z0&usqp=CAU" alt=""/>
