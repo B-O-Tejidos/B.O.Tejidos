@@ -1159,6 +1159,9 @@ br{
         margin-left: 35%;
 
     }
+    #input-search{
+        display: none;
+    }
 }
 
 @media ( max-width: 600px ) {
@@ -1206,8 +1209,48 @@ br{
 
 }
 
-@media ( max-width: 400px ) {
-
+@media ( max-width: 425px ) {
+    .logo{
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .titulo h2{
+        font-size: 79px;
+        font-weight: 500;
+    }
+    .lanas{
+        padding: 25px;
+    }
+    .galerias .items .descripcion ul li{
+        color: #ffffff;
+        font-size: 22px;
+    }
+    .galerias .items .caja img{
+        height: 260px;
+    }
+    .galerias .items{
+        margin-top: 30px;
+        flex:100%;
+        max-width: 100%;
+        position: relative;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .btn-pedido button{
+        padding-top: 7px;
+        padding-bottom: 7px;
+        font-size: 19px;
+    }
+    .btn-pedido{
+        align-items: center;
+        text-align: center;
+        margin-left: 2%;
+    
+    }
+    .navbar .contactos{
+        align-items: center;
+    }
 }
 
 @media ( max-width: 300px ) {
