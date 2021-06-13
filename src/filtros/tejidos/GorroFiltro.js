@@ -1,5 +1,6 @@
 import React from 'react';
 import { BotonesSubirPedidos } from '../../complementos/botones/BotonesSubirPedidos';
+import { FooterMovil } from '../../complementos/footer/FooterMovil';
 import { PiePagina } from '../../complementos/footer/PiePagina';
 
 export const GorroFiltro = () => {
@@ -7,7 +8,7 @@ export const GorroFiltro = () => {
     return (
         <div className="galerias">
             
-            <div className="items">
+                        <div className="movil items">
                             <div className="iner">
                                 <div className="caja">
                                     <img src="https://i.ytimg.com/vi/wdFt9zH4MqE/maxresdefault.jpg" alt=""/>
@@ -25,7 +26,7 @@ export const GorroFiltro = () => {
                             </div>    
                         </div>
 
-                        <div className="items">
+                        <div className="movil items">
                             <div className="iner">
                                 <div className="caja">
                                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyCHNVntW4t6ofGtgPHPDe5ttC6pTVgpvUQuk_sPFo-HN6xyOMr7SBMhAI8uJyGWfR6Z0&usqp=CAU" alt=""/>
@@ -45,6 +46,7 @@ export const GorroFiltro = () => {
 
             <BotonesSubirPedidos />
             <PiePagina />
+            <FooterMovil />
 
         </div>
     );

@@ -1,5 +1,6 @@
 import React from 'react';
 import { BotonesSubirPedidos } from '../../complementos/botones/BotonesSubirPedidos';
+import { FooterMovil } from '../../complementos/footer/FooterMovil';
 import { PiePagina } from '../../complementos/footer/PiePagina';
 
 export const CuelloFiltro = () => {
@@ -7,7 +8,7 @@ export const CuelloFiltro = () => {
     return (
         <div className="galerias">
             
-            <div className="items">
+                        <div className="movil items">
                             <div className="iner">
                                 <div className="caja">
                                     <img src="https://estag.fimagenes.com/busquedas/cuellos-de-lana_7_900.jpg" alt=""/>
@@ -45,6 +46,7 @@ export const CuelloFiltro = () => {
 
             <BotonesSubirPedidos />
             <PiePagina />
+            <FooterMovil />
 
         </div>
     );

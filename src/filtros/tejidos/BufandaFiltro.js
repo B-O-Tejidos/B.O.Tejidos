@@ -1,5 +1,6 @@
 import React from 'react';
 import { BotonesSubirPedidos } from '../../complementos/botones/BotonesSubirPedidos';
+import { FooterMovil } from '../../complementos/footer/FooterMovil';
 import { PiePagina } from '../../complementos/footer/PiePagina';
 import { IconoPagina } from '../../complementos/icono/IconoPagina';
 
@@ -10,7 +11,7 @@ export const BufandaFiltro = () => {
             
             <IconoPagina />
 
-            <div className="movil items">
+                        <div className="movil items">
                             <div className="iner">
                                 <div className="caja">
                                     <img src="https://i.pinimg.com/474x/94/55/1d/94551dcba764301d8cd2dfa0ba2d077d.jpg" alt=""/>
@@ -48,6 +49,7 @@ export const BufandaFiltro = () => {
 
             <BotonesSubirPedidos />
             <PiePagina />
+            <FooterMovil />
 
         </div>
     );

@@ -1,5 +1,6 @@
 import React from 'react';
 import { BotonesSubirPedidos } from '../../complementos/botones/BotonesSubirPedidos';
+import { FooterMovil } from '../../complementos/footer/FooterMovil';
 import { PiePagina } from '../../complementos/footer/PiePagina';
 
 export const ChalecoFiltro = () => {
@@ -45,6 +46,7 @@ export const ChalecoFiltro = () => {
 
             <BotonesSubirPedidos />
             <PiePagina />
+            <FooterMovil />
 
         </div>
     );

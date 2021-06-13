@@ -1,5 +1,6 @@
 import React from 'react';
 import { BotonesSubirPedidos } from '../../complementos/botones/BotonesSubirPedidos';
+import { FooterMovil } from '../../complementos/footer/FooterMovil';
 import { PiePagina } from '../../complementos/footer/PiePagina';
 
 export const TodoFiltro = () => {
@@ -7,8 +8,8 @@ export const TodoFiltro = () => {
     return (
         <div>
             
-            <div className="galerias">
-                        <div className="items">
+                <div className="galerias">
+                        <div className="movil items">
                             <div className="iner" id="img.0">
                                 <div className="caja">
                                     <a href="#img1"><img src="http://kipu.cl/imagenes/productos/507/med.jpg" alt=""/></a>
@@ -23,7 +24,7 @@ export const TodoFiltro = () => {
                                 </div>
                             </div>    
                         </div>
-                        <div className="items">
+                        <div className="movil items">
                             <div className="iner" id="img.01">
                                 <div className="caja">
                                     <a href="#img2"><img src="https://i.ytimg.com/vi/wdFt9zH4MqE/maxresdefault.jpg" alt=""/></a>
@@ -39,7 +40,7 @@ export const TodoFiltro = () => {
                                 </div>
                             </div>    
                         </div>
-                        <div className="items">
+                        <div className="movil items">
                             <div className="iner" id="img.02">
                                 <div className="caja">
                                     <a href="#img3"><img src="https://estag.fimagenes.com/busquedas/cuellos-de-lana_7_900.jpg" alt=""/></a>
@@ -55,7 +56,7 @@ export const TodoFiltro = () => {
                                 </div>
                             </div>    
                         </div>
-                        <div className="items">
+                        <div className="movil items">
                             <div className="iner" id="img.03">
                                 <div className="caja">
                                     <img src="https://i.pinimg.com/474x/94/55/1d/94551dcba764301d8cd2dfa0ba2d077d.jpg" alt=""/>
@@ -70,7 +71,7 @@ export const TodoFiltro = () => {
                                 </div>
                             </div>    
                         </div>
-                        <div className="items">
+                        <div className="movil items">
                             <div className="iner" id="img.04">
                                 <div className="caja">
                                     <img src="https://www.lanasyovillos.com/sites/default/files/guantes-crochet-patron-gratis.jpg" alt=""/>
@@ -86,7 +87,7 @@ export const TodoFiltro = () => {
                                 </div>
                             </div>    
                         </div>
-                        <div className="items">
+                        <div className="movil items">
                             <div className="iner" id="img.05">
                                 <div className="caja">
                                     <img src="https://www.felizypunto.com/wp-content/uploads/Portada-1.jpg" alt=""/>
@@ -145,6 +146,7 @@ export const TodoFiltro = () => {
 
             <BotonesSubirPedidos />
             <PiePagina />
+            <FooterMovil />
 
         </div>
     );
