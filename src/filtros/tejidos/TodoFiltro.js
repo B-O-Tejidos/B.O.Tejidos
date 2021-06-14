@@ -124,46 +124,167 @@ export const TodoFiltro = () => {
                         </div>
                     </div>
 
+                    <BotonesSubirPedidos />
+
+                
+                <div className="CHALECO 001">
                     <div className="model" id="img1">
                         <div className="img">
+                            <div className="otras-img">
+
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm2zJZhpW0rszx_dpJJkTzvcKeKnhheALEPw&usqp=CAU"/>
+
+                                <img src="https://www.katia.com/files/mod/6139/patron-tejer-punto-ganchillo-mujer-chaleco-otono-invierno-katia-6139-54-g.jpg"/>
+
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNzN4t9e6WHgI5c42LBKP1pBC1eIRk_iojQg&usqp=CAU"/>
+
+                                <img src="https://pbs.twimg.com/media/DmcESCbW0AEIs3x.jpg"/>
+
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbcKEyZA9UJ_qwVm0eUCyzHGTp4hfei7Wu0C7NGdcTQ02gRj5lt5Ml9SFmEFtfqELZkYo&usqp=CAU"/>
+
+                            </div>
+
                             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQyh6Oi1bqAbuG8M8Sfj1897waoIStjkCqHw&usqp=CAU"/>
+
                         </div>
-                        <a className="cerrar" href="#img.0">X</a>
-                    </div>
-                    <div className="model" id="img2">
-                        <div className="img">
-                            <img src="https://i.ytimg.com/vi/wdFt9zH4MqE/maxresdefault.jpg"/>
+                        <div className="botones-ligthbox">
+                            <a className="cerrar" href="#img.secundaria.5"><i class="fas f1 fa-arrow-left"></i></a>
+                            <a className="cerrar" href="#img.0">X</a>
+                            <a className="cerrar" href="#img.secundaria.1"> <i class="fas fa-arrow-right"></i></a>
                         </div>
-                        <a className="cerrar" href="#img.01">X</a>
-                    </div>
-                    <div className="model" id="img3">
-                        <div className="img">
-                            <img src="https://estag.fimagenes.com/busquedas/cuellos-de-lana_7_900.jpg"/>
-                        </div>
-                        <a className="cerrar" href="#img.02">X</a>
-                    </div>
-                    <div className="model" id="img4">
-                        <div className="img">
-                            <img src="https://i.ytimg.com/vi/wdFt9zH4MqE/maxresdefault.jpg"/>
-                        </div>
-                        <a className="cerrar" href="#img.03">X</a>
-                    </div>
-                    <div className="model" id="img5">
-                        <div className="img">
-                            <img src="https://i.ytimg.com/vi/wdFt9zH4MqE/maxresdefault.jpg"/>
-                        </div>
-                        <a className="cerrar" href="#img.04">X</a>
-                    </div>
-                    <div className="model" id="img6">
-                        <div className="img">
-                            <img src="https://i.ytimg.com/vi/wdFt9zH4MqE/maxresdefault.jpg"/>
-                        </div>
-                        <a className="cerrar" href="#img.05">X</a>
                     </div>
 
+                    <div className="model" id="img.secundaria.1">
+                        <div className="img">
+                            <div className="otras-img">
 
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm2zJZhpW0rszx_dpJJkTzvcKeKnhheALEPw&usqp=CAU"/>
 
-            <BotonesSubirPedidos />
+                                <img src="https://www.katia.com/files/mod/6139/patron-tejer-punto-ganchillo-mujer-chaleco-otono-invierno-katia-6139-54-g.jpg"/>
+
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNzN4t9e6WHgI5c42LBKP1pBC1eIRk_iojQg&usqp=CAU"/>
+
+                                <img src="https://pbs.twimg.com/media/DmcESCbW0AEIs3x.jpg"/>
+
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbcKEyZA9UJ_qwVm0eUCyzHGTp4hfei7Wu0C7NGdcTQ02gRj5lt5Ml9SFmEFtfqELZkYo&usqp=CAU"/>
+
+                            </div>
+
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm2zJZhpW0rszx_dpJJkTzvcKeKnhheALEPw&usqp=CAU"/>
+
+                        </div>
+                        <div className="botones-ligthbox">
+                            <a className="cerrar" href="#img1"><i class="fas f1 fa-arrow-left"></i></a>
+                            <a className="cerrar" href="#img.0">X</a>
+                            <a className="cerrar" href="#img.secundaria.2"> <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div className="model" id="img.secundaria.2">
+                        <div className="img">
+                            <div className="otras-img">
+
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm2zJZhpW0rszx_dpJJkTzvcKeKnhheALEPw&usqp=CAU"/>
+
+                                <img src="https://www.katia.com/files/mod/6139/patron-tejer-punto-ganchillo-mujer-chaleco-otono-invierno-katia-6139-54-g.jpg"/>
+
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNzN4t9e6WHgI5c42LBKP1pBC1eIRk_iojQg&usqp=CAU"/>
+
+                                <img  src="https://pbs.twimg.com/media/DmcESCbW0AEIs3x.jpg"/>
+
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbcKEyZA9UJ_qwVm0eUCyzHGTp4hfei7Wu0C7NGdcTQ02gRj5lt5Ml9SFmEFtfqELZkYo&usqp=CAU"/>
+
+                            </div>
+
+                            <img src="https://www.katia.com/files/mod/6139/patron-tejer-punto-ganchillo-mujer-chaleco-otono-invierno-katia-6139-54-g.jpg"/>
+
+                        </div>
+                        <div className="botones-ligthbox">
+                            <a className="cerrar" href="#img.secundaria.1"><i class="fas f1 fa-arrow-left"></i></a>
+                            <a className="cerrar" href="#img.0">X</a>
+                            <a className="cerrar" href="#img.secundaria.3"> <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div className="model" id="img.secundaria.3">
+                        <div className="img">
+                            <div className="otras-img">
+
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm2zJZhpW0rszx_dpJJkTzvcKeKnhheALEPw&usqp=CAU"/>
+
+                                <img src="https://www.katia.com/files/mod/6139/patron-tejer-punto-ganchillo-mujer-chaleco-otono-invierno-katia-6139-54-g.jpg"/>
+
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNzN4t9e6WHgI5c42LBKP1pBC1eIRk_iojQg&usqp=CAU"/>
+
+                                <img src="https://pbs.twimg.com/media/DmcESCbW0AEIs3x.jpg"/>
+
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbcKEyZA9UJ_qwVm0eUCyzHGTp4hfei7Wu0C7NGdcTQ02gRj5lt5Ml9SFmEFtfqELZkYo&usqp=CAU"/>
+
+                            </div>
+
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNzN4t9e6WHgI5c42LBKP1pBC1eIRk_iojQg&usqp=CAU"/>
+
+                        </div>
+                        <div className="botones-ligthbox">
+                            <a className="cerrar" href="#img.secundaria.2"><i class="fas f1 fa-arrow-left"></i></a>
+                            <a className="cerrar" href="#img.0">X</a>
+                            <a className="cerrar" href="#img.secundaria.4"> <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div className="model" id="img.secundaria.4">
+                        <div className="img">
+                            <div className="otras-img">
+
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm2zJZhpW0rszx_dpJJkTzvcKeKnhheALEPw&usqp=CAU"/>
+
+                                <img src="https://www.katia.com/files/mod/6139/patron-tejer-punto-ganchillo-mujer-chaleco-otono-invierno-katia-6139-54-g.jpg"/>
+
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNzN4t9e6WHgI5c42LBKP1pBC1eIRk_iojQg&usqp=CAU"/>
+
+                                <img src="https://pbs.twimg.com/media/DmcESCbW0AEIs3x.jpg"/>
+
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbcKEyZA9UJ_qwVm0eUCyzHGTp4hfei7Wu0C7NGdcTQ02gRj5lt5Ml9SFmEFtfqELZkYo&usqp=CAU"/>
+
+                            </div>
+
+                            <img src="https://pbs.twimg.com/media/DmcESCbW0AEIs3x.jpg"/>
+
+                        </div>
+                        <div className="botones-ligthbox">
+                            <a className="cerrar" href="#img.secundaria.3"><i class="fas f1 fa-arrow-left"></i></a>
+                            <a className="cerrar" href="#img.0">X</a>
+                            <a className="cerrar" href="#img.secundaria.5"> <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div className="model" id="img.secundaria.5">
+                        <div className="img">
+                            <div className="otras-img">
+
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm2zJZhpW0rszx_dpJJkTzvcKeKnhheALEPw&usqp=CAU"/>
+
+                                <img src="https://www.katia.com/files/mod/6139/patron-tejer-punto-ganchillo-mujer-chaleco-otono-invierno-katia-6139-54-g.jpg"/>
+
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNzN4t9e6WHgI5c42LBKP1pBC1eIRk_iojQg&usqp=CAU"/>
+
+                                <img src="https://pbs.twimg.com/media/DmcESCbW0AEIs3x.jpg"/>
+
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbcKEyZA9UJ_qwVm0eUCyzHGTp4hfei7Wu0C7NGdcTQ02gRj5lt5Ml9SFmEFtfqELZkYo&usqp=CAU"/>
+
+                            </div>
+
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbcKEyZA9UJ_qwVm0eUCyzHGTp4hfei7Wu0C7NGdcTQ02gRj5lt5Ml9SFmEFtfqELZkYo&usqp=CAU"/>
+
+                        </div>
+                        <div className="botones-ligthbox">
+                            <a className="cerrar" href="#img.secundaria.4"><i class="fas f1 fa-arrow-left"></i></a>
+                            <a className="cerrar" href="#img.0">X</a>
+                            <a className="cerrar" href="#img1"> <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
             <PiePagina />
             <FooterMovil />
 

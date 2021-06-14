@@ -769,18 +769,26 @@ tbody tr td a:hover{
 }
 
 .img img{
+    margin-top: 40px;
     width: 40%;
-    height: 100%;
+    height: 400px;
     max-width: 100%;
     border: 7px solid blueviolet;
     box-sizing: border-box;
 }
 
 .model a{
-    margin-top:  10px;
+    margin-top:  150px;
 }
 
-.cerrar{
+.botones-ligthbox{
+    margin-top: 40px;
+    display: flex;
+}
+
+.botones-ligthbox .cerrar{
+    margin: 10px;
+    border: 3px solid #ffffff;
     display: block;
     background: blueviolet;
     width: 55px;
@@ -792,7 +800,24 @@ tbody tr td a:hover{
     color: #fff;
     padding: 10px;
     border-radius: 50%;
-    line-height: 35px;
+    line-height: 30px;
+}
+
+.botones-ligthbox .cerrar .fas{
+    line-height: 8px;
+    font-size: 35px;
+}
+
+.model .img{
+    display: inline-block;
+}
+
+.otras-img img{
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 70px;
+    height: 70px;
 }
 
 /*-----------------------------------------------------------------------------------------------------*/
@@ -1336,6 +1361,21 @@ br{
 }
 
 @media ( max-width: 425px ) {
+    .img img{
+        margin-top: 50px;
+        width: 70%;
+        height: 300px;
+        max-width: 100%;
+        border: 7px solid blueviolet;
+        box-sizing: border-box;
+    }
+    .otras-img img{
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 60px;
+        height: 60px;
+    }
     .guia li{
         color: #c7c7c7;
         font-size: 12px;
