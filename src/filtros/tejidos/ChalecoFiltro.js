@@ -11,6 +11,9 @@ export const ChalecoFiltro = () => {
             <div className="movil items">
                 <div className="iner">
                     <div className="caja">
+                    <div className="guia">
+                                        <li>Haz CLICK en la foto para mas detalles</li>
+                                    </div>
                         <img src="http://kipu.cl/imagenes/productos/507/med.jpg" alt="" />
                     </div>
                     <div className="descripcion">

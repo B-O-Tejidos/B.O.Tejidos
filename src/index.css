@@ -511,6 +511,22 @@ tbody tr td a:hover{
     font-size: 30px;
 }
 
+.guia{
+    list-style: none;
+    background-color: #000000;
+    display: inline-block;
+    border-left: solid 5px #ffffff;
+    border-right: solid 5px #ffffff;
+    border-top: solid 5px #ffffff;
+    border-bottom: solid 2px #ffffff;
+}
+
+.guia li{
+    color: #c7c7c7;
+    font-size: 14px;
+    padding: 3px;
+}
+
 /*-----------------------------------------------------------------------------------------------------*/
 /*-----------------------------------------------------------------------------------------------------*/
 
@@ -1320,6 +1336,11 @@ br{
 }
 
 @media ( max-width: 425px ) {
+    .guia li{
+        color: #c7c7c7;
+        font-size: 12px;
+        padding: 3px;
+    }
     .galerias .items .descripcion ul{
         padding-left: 45px;
     }
@@ -1387,6 +1408,11 @@ br{
 }
 
 @media ( max-width: 400px ) {
+    .guia li{
+        color: #c7c7c7;
+        font-size: 11px;
+        padding: 3px;
+    }
     .galerias .items .descripcion ul{
         padding-left: 44px;
     }
@@ -1428,6 +1454,11 @@ br{
 }
 
 @media ( max-width: 375px ) {
+    .guia li{
+        color: #c7c7c7;
+        font-size: 10px;
+        padding: 3px;
+    }
     .galerias .items .caja img{
         height: 260px;
     }
@@ -1463,6 +1494,11 @@ br{
 }
 
 @media ( max-width: 350px ) {
+    .guia li{
+        color: #c7c7c7;
+        font-size: 9px;
+        padding: 3px;
+    }
     .galerias .items .descripcion ul{
         padding-left: 42px;
     }
@@ -1504,6 +1540,11 @@ br{
 }
 
 @media ( max-width: 325px ) {
+    .guia li{
+        color: #c7c7c7;
+        font-size: 8px;
+        padding: 3px;
+    }
     .galerias .items{
         padding-left: 0px;
         padding-right: 0px;

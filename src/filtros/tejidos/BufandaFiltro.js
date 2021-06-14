@@ -14,6 +14,9 @@ export const BufandaFiltro = () => {
                         <div className="movil items">
                             <div className="iner">
                                 <div className="caja">
+                                <div className="guia">
+                                        <li>Haz CLICK en la foto para mas detalles</li>
+                                    </div>
                                     <img src="https://i.pinimg.com/474x/94/55/1d/94551dcba764301d8cd2dfa0ba2d077d.jpg" alt=""/>
                                 </div>
                                 <div className="descripcion">

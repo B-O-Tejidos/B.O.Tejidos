@@ -11,6 +11,9 @@ export const GuanteFiltro = () => {
                         <div className="movil items">
                             <div className="iner">
                                 <div className="caja">
+                                <div className="guia">
+                                        <li>Haz CLICK en la foto para mas detalles</li>
+                                    </div>
                                     <img src="https://www.lanasyovillos.com/sites/default/files/guantes-crochet-patron-gratis.jpg" alt=""/>
                                 </div>
                                 <div className="descripcion">

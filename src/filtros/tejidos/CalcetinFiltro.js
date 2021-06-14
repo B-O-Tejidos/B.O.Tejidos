@@ -11,6 +11,9 @@ export const CalcetinFiltro = () => {
                         <div className="movil items">
                             <div className="iner">
                                 <div className="caja">
+                                <div className="guia">
+                                        <li>Haz CLICK en la foto para mas detalles</li>
+                                    </div>
                                     <img src="https://www.felizypunto.com/wp-content/uploads/Portada-1.jpg" alt=""/>
                                 </div>
                                 <div className="descripcion">

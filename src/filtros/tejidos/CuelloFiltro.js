@@ -11,6 +11,9 @@ export const CuelloFiltro = () => {
                         <div className="movil items">
                             <div className="iner">
                                 <div className="caja">
+                                <div className="guia">
+                                        <li>Haz CLICK en la foto para mas detalles</li>
+                                    </div>
                                     <img src="https://estag.fimagenes.com/busquedas/cuellos-de-lana_7_900.jpg" alt=""/>
                                 </div>
                                 <div className="descripcion">

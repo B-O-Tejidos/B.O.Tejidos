@@ -11,6 +11,9 @@ export const GorroFiltro = () => {
                         <div className="movil items">
                             <div className="iner">
                                 <div className="caja">
+                                <div className="guia">
+                                        <li>Haz CLICK en la foto para mas detalles</li>
+                                    </div>
                                     <img src="https://i.ytimg.com/vi/wdFt9zH4MqE/maxresdefault.jpg" alt=""/>
                                 </div>
                                 <div className="descripcion">
