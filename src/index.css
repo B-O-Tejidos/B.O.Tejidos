@@ -743,13 +743,25 @@ tbody tr td a:hover{
 }
 
 .imagen-siguiente{
+    text-align: center;
     margin-top: 20px;
     flex:50.50%;
     max-width: 50%;
     display: inline-block;
-    padding-left: 80px;
-    padding-right: 80px;
+}
 
+.imagen-siguiente .p1{
+    text-align: center;
+    display: flexbox;
+    margin-left: 30px;
+    margin-right: 50px;
+    
+}
+
+.imagen-siguiente .p2{
+    display: flexbox;
+    margin-left: 30px;
+    margin-right: 50px;
 }
 
 .imagen-siguiente a {
@@ -1380,10 +1392,12 @@ br{
         text-align: center;
         justify-content: center;
         align-items: center;
-        margin-top: 21px;
+        margin-top:81px;
         margin-left: 12%;
     }
-    
+    .botones-ligthbox{
+        margin-top: 80px;
+    }
     .colores .paleta{
         text-align: center;
         margin-top: 0px;
@@ -1408,6 +1422,7 @@ br{
         margin-bottom: 0px;
     }    
     .imagen-siguiente img{
+        margin-top: 50px;
         width: 60px;
         height: 60px;
     }
@@ -1418,7 +1433,7 @@ br{
         display: flex;
     }
     .img img{
-        margin-top: 50px;
+        margin-top: 80px;
         width: 70%;
         height: 300px;
         max-width: 100%;
@@ -1426,7 +1441,7 @@ br{
         box-sizing: border-box;
     }
     .imagenes img{
-        margin-top: 50px;
+        margin-top: 80px;
         width: 70%;
         height: 300px;
         max-width: 100%;
@@ -1434,7 +1449,7 @@ br{
         box-sizing: border-box;
     }
     .otras-img img{
-        margin-top: 10px;
+        margin-top: 50px;
         margin-left: 10px;
         margin-right: 10px;
         width: 60px;

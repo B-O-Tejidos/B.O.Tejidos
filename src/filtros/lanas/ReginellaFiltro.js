@@ -48,12 +48,12 @@ export const ReginellaFiltro = () => {
                             <div className="imagen-siguiente">
                                 <a href="#imagensiguinete1"><img src={ imagenprueba }/>
                                 <br/>
-                                <span>HAZ CLICK EN LA IMAGEN PARA VER FICHA</span></a>
+                                <span className="p1">HAZ CLICK EN LA IMAGEN PARA VER FICHA</span></a>
                             </div>
                             <div className="imagen-siguiente">
                                 <a href="#imagensiguinete2"><img src='https://img.yapo.cl/images/07/0758384578.jpg'/>
                                 <br/>
-                                <span>HAZ CLICK EN LA IMAGEN PARA VER COLORES</span></a>
+                                <span className="p2">HAZ CLICK EN LA IMAGEN PARA VER COLORES</span></a>
                             </div>
                         <div className="imagenes">
                             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxypY_S09jHMq_DDuNK16AIvrLsD03fC5Afw&usqp=CAU"/>
@@ -69,12 +69,12 @@ export const ReginellaFiltro = () => {
                             <div className="imagen-siguiente">
                                 <a href="#img1"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxypY_S09jHMq_DDuNK16AIvrLsD03fC5Afw&usqp=CAU"/>
                                 <br/>
-                                <span>HAZ CLICK EN LA IMAGEN PARA VER LANAS</span></a>
+                                <span className="p1">HAZ CLICK EN LA IMAGEN PARA VER LANAS</span></a>
                             </div>
                             <div className="imagen-siguiente">
                                 <a href="#imagensiguinete2"><img src='https://img.yapo.cl/images/07/0758384578.jpg'/>
                                 <br/>
-                                <span>HAZ CLICK EN LA IMAGEN PARA VER COLORES</span></a>
+                                <span className="p2">HAZ CLICK EN LA IMAGEN PARA VER COLORES</span></a>
                             </div>
                         <div className="imagenes">
                             <img src={ imagenprueba }/>
@@ -89,12 +89,12 @@ export const ReginellaFiltro = () => {
                             <div className="imagen-siguiente">
                                 <a href="#img1"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxypY_S09jHMq_DDuNK16AIvrLsD03fC5Afw&usqp=CAU"/>
                                 <br/>
-                                <span>HAZ CLICK EN LA IMAGEN PARA VER LANAS</span></a>
+                                <span className="p1">HAZ CLICK EN LA IMAGEN PARA VER LANAS</span></a>
                             </div>
                             <div className="imagen-siguiente">
                                 <a href="#imagensiguinete1"><img src={ imagenprueba }/>
                                 <br/>
-                                <span>HAZ CLICK EN LA IMAGEN PARA VER FICHA</span></a>
+                                <span className="p2">HAZ CLICK EN LA IMAGEN PARA VER FICHA</span></a>
                             </div>
                             <div className="imagenes">
                                 <img src='https://img.yapo.cl/images/07/0758384578.jpg'/>
@@ -111,12 +111,12 @@ export const ReginellaFiltro = () => {
                             <div className="imagen-siguiente">
                                 <a href="#img1"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxypY_S09jHMq_DDuNK16AIvrLsD03fC5Afw&usqp=CAU"/>
                                 <br/>
-                                <span>HAZ CLICK EN LA IMAGEN PARA VER LANAS</span></a>
+                                <span className="p1">HAZ CLICK EN LA IMAGEN PARA VER LANAS</span></a>
                             </div>
                             <div className="imagen-siguiente">
                                 <a href="#imagensiguinete1"><img src={ imagenprueba }/>
                                 <br/>
-                                <span>HAZ CLICK EN LA IMAGEN PARA VER FICHA</span></a>
+                                <span className="p2">HAZ CLICK EN LA IMAGEN PARA VER FICHA</span></a>
                             </div>
 
                             <div className="colores">
