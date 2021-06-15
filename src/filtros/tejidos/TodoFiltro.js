@@ -227,7 +227,7 @@ export const TodoFiltro = () => {
                         </div>
                         <div className="botones-ligthbox">
                             <a className="cerrar" href="#img.secundaria.2"><i class="fas f1 fa-arrow-left"></i></a>
-                            <a className="cerrar" href="#img.0">X</a>
+                            <a className="cerrar" href="#img">X</a>
                             <a className="cerrar" href="#img.secundaria.4"> <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
