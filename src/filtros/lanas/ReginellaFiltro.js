@@ -8,10 +8,13 @@ export const ReginellaFiltro = () => {
     return (
         <div className="galerias">
 
-                        <div className="items">
+                        <div className="movil items">
                             <div className="iner" id="img.1">
                                 <div className="caja">
-                                <a href="#img1"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxypY_S09jHMq_DDuNK16AIvrLsD03fC5Afw&usqp=CAU" alt=""/></a>
+                                    <div className="guia">
+                                        <li>Haz CLICK en la foto para mas detalles</li>
+                                    </div>
+                                    <a href="#img1"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxypY_S09jHMq_DDuNK16AIvrLsD03fC5Afw&usqp=CAU" alt=""/></a>
                                 </div>
                                 <div className="descripcion">
                                     <h4>Lanas Reginella</h4>
@@ -24,7 +27,7 @@ export const ReginellaFiltro = () => {
                             </div>    
                         </div>
 
-                        <div className="items">
+                        <div className="movil items">
                             <div className="iner">
                                 <div className="caja">
                                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyCHNVntW4t6ofGtgPHPDe5ttC6pTVgpvUQuk_sPFo-HN6xyOMr7SBMhAI8uJyGWfR6Z0&usqp=CAU" alt=""/>

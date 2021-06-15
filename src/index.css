@@ -1412,6 +1412,7 @@ br{
         margin-left: 2px;
         margin-right: 2px;
         font-size: 12px;
+        font-weight: 10px;
     }
     
     .colores label{
@@ -1427,9 +1428,10 @@ br{
         height: 60px;
     }
     .imagen-siguiente a span{
+        margin-top: 5px;
         padding-left: 10%;
         color: white;
-        font-size: 10px;
+        font-size: 15px;
         display: flex;
     }
     .img img{
@@ -1442,7 +1444,7 @@ br{
     }
     .imagenes img{
         margin-top: 80px;
-        width: 70%;
+        width: 86%;
         height: 300px;
         max-width: 100%;
         border: 7px solid blueviolet;
@@ -1527,6 +1529,47 @@ br{
 }
 
 @media ( max-width: 400px ) {
+    .imagen-siguiente img{
+        margin-top: 50px;
+        width: px;
+        height: 60px;
+    }
+    .imagen-siguiente a span{
+        padding-left: 10%;
+        color: white;
+        font-size: 13px;
+        display: flex;
+    }
+    .img img{
+        margin-top: 80px;
+        width: 85%;
+        height: 290px;
+        max-width: 100%;
+        border: 7px solid blueviolet;
+        box-sizing: border-box;
+    }
+    .imagenes img{
+        margin-top: 80px;
+        width: 85%;
+        height: 290px;
+        max-width: 100%;
+        border: 7px solid blueviolet;
+        box-sizing: border-box;
+    }
+    .otras-img img{
+        margin-top: 50px;
+        margin-left: 8px;
+        margin-right: 8px;
+        width: 58px;
+        height: 58px;
+    }
+    .colores li{
+        text-align: center;
+        margin-left: 2px;
+        margin-right: 2px;
+        font-size: 11px;
+    }
+    
     .guia li{
         color: #c7c7c7;
         font-size: 11px;
@@ -1572,7 +1615,51 @@ br{
     }
 }
 
+@media ( max-width: 379px ) {
+    .colores li{
+        text-align: center;
+        margin-left: 2px;
+        margin-right: 2px;
+        font-size: 10px;
+    }
+}
+
 @media ( max-width: 375px ) {
+    .imagen-siguiente a span{
+        padding-left: 10%;
+        color: white;
+        font-size: 11px;
+        display: flex;
+    }
+    .img img{
+        margin-top: 80px;
+        width: 84%;
+        height: 280px;
+        max-width: 100%;
+        border: 7px solid blueviolet;
+        box-sizing: border-box;
+    }
+    .imagenes img{
+        margin-top: 80px;
+        width: 84%;
+        height: 280px;
+        max-width: 100%;
+        border: 7px solid blueviolet;
+        box-sizing: border-box;
+    }
+    .otras-img img{
+        margin-top: 50px;
+        margin-left: 6px;
+        margin-right: 6px;
+        width: 56px;
+        height: 56px;
+    }
+    .colores li{
+        text-align: center;
+        margin-left: 2px;
+        margin-right: 2px;
+        font-size: 9px;
+    }
     .guia li{
         color: #c7c7c7;
         font-size: 10px;
@@ -1613,6 +1700,41 @@ br{
 }
 
 @media ( max-width: 350px ) {
+    .imagen-siguiente a span{
+        padding-left: 10%;
+        color: white;
+        font-size: 9px;
+        display: flex;
+    }
+    .img img{
+        margin-top: 80px;
+        width: 83%;
+        height: 270px;
+        max-width: 100%;
+        border: 7px solid blueviolet;
+        box-sizing: border-box;
+    }
+    .imagenes img{
+        margin-top: 80px;
+        width: 83%;
+        height: 270px;
+        max-width: 100%;
+        border: 7px solid blueviolet;
+        box-sizing: border-box;
+    }
+    .otras-img img{
+        margin-top: 50px;
+        margin-left: 6px;
+        margin-right: 6px;
+        width: 54px;
+        height: 54px;
+    }
+    .colores li{
+        text-align: center;
+        margin-left: 2px;
+        margin-right: 2px;
+        font-size: 8px;
+    }
     .guia li{
         color: #c7c7c7;
         font-size: 9px;
@@ -1659,6 +1781,19 @@ br{
 }
 
 @media ( max-width: 325px ) {
+    .imagen-siguiente a span{
+        padding-left: 10%;
+        color: white;
+        font-size: 7px;
+        display: flex;
+    }
+    .otras-img img{
+        margin-top: 50px;
+        margin-left: 4px;
+        margin-right: 4px;
+        width: 52px;
+        height: 52px;
+    }
     .guia li{
         color: #c7c7c7;
         font-size: 8px;
