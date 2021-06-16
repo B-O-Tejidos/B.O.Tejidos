@@ -1529,6 +1529,9 @@ br{
 }
 
 @media ( max-width: 400px ) {
+    .botones-ligthbox{
+        margin-top: 70px;
+    }
     .img img{
         margin-top: 70px;
     }
@@ -1536,7 +1539,7 @@ br{
         margin-top: 70px;
     }
     .imagen-siguiente img{
-        margin-top: 50px;
+        margin-top: 30px;
         width: 60px;
         height: 60px;
     }
@@ -1547,7 +1550,6 @@ br{
         display: flex;
     }
     .img img{
-        margin-top: 80px;
         width: 85%;
         height: 290px;
         max-width: 100%;
@@ -1555,7 +1557,6 @@ br{
         box-sizing: border-box;
     }
     .imagenes img{
-        margin-top: 80px;
         width: 85%;
         height: 290px;
         max-width: 100%;
@@ -1563,7 +1564,7 @@ br{
         box-sizing: border-box;
     }
     .otras-img img{
-        margin-top: 50px;
+        margin-top: 30px;
         margin-left: 8px;
         margin-right: 8px;
         width: 58px;
@@ -1631,11 +1632,17 @@ br{
 }
 
 @media ( max-width: 375px ) {
+    .botones-ligthbox{
+        margin-top: 60px;
+    }
     .img img{
         margin-top: 60px;
     }
     .imagenes img{
         margin-top: 60px;
+    }
+    .imagen-siguiente img{
+        margin-top: 10px;
     }
     .imagen-siguiente a span{
         padding-left: 10%;
@@ -1644,7 +1651,6 @@ br{
         display: flex;
     }
     .img img{
-        margin-top: 80px;
         width: 84%;
         height: 280px;
         max-width: 100%;
@@ -1652,7 +1658,6 @@ br{
         box-sizing: border-box;
     }
     .imagenes img{
-        margin-top: 80px;
         width: 84%;
         height: 280px;
         max-width: 100%;
@@ -1660,7 +1665,7 @@ br{
         box-sizing: border-box;
     }
     .otras-img img{
-        margin-top: 50px;
+        margin-top: 10px;
         margin-left: 6px;
         margin-right: 6px;
         width: 56px;
@@ -1712,11 +1717,17 @@ br{
 }
 
 @media ( max-width: 350px ) {
+    .botones-ligthbox{
+        margin-top: 50px;
+    }
     .img img{
         margin-top: 50px;
     }
     .imagenes img{
         margin-top: 50px;
+    }
+    .imagen-siguiente img{
+        margin-top: 0px;
     }
     .imagen-siguiente a span{
         padding-left: 10%;
@@ -1725,7 +1736,6 @@ br{
         display: flex;
     }
     .img img{
-        margin-top: 80px;
         width: 83%;
         height: 270px;
         max-width: 100%;
@@ -1733,7 +1743,6 @@ br{
         box-sizing: border-box;
     }
     .imagenes img{
-        margin-top: 80px;
         width: 83%;
         height: 270px;
         max-width: 100%;
@@ -1741,7 +1750,7 @@ br{
         box-sizing: border-box;
     }
     .otras-img img{
-        margin-top: 50px;
+        margin-top: 0px;
         margin-left: 6px;
         margin-right: 6px;
         width: 54px;
@@ -1799,6 +1808,9 @@ br{
 }
 
 @media ( max-width: 325px ) {
+    .botones-ligthbox{
+        margin-top: 40px;
+    }
     .img img{
         margin-top: 40px;
     }
@@ -1812,7 +1824,6 @@ br{
         display: flex;
     }
     .otras-img img{
-        margin-top: 50px;
         margin-left: 4px;
         margin-right: 4px;
         width: 52px;
