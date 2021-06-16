@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.1c537558.chunk.css",
+    "main.css": "/static/css/main.a68ed4fc.chunk.css",
     "main.js": "/static/js/main.565d9e10.chunk.js",
     "main.js.map": "/static/js/main.565d9e10.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a8824189.js",
@@ -8,7 +8,7 @@
     "static/js/2.5330bec1.chunk.js": "/static/js/2.5330bec1.chunk.js",
     "static/js/2.5330bec1.chunk.js.map": "/static/js/2.5330bec1.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.1c537558.chunk.css.map": "/static/css/main.1c537558.chunk.css.map",
+    "static/css/main.a68ed4fc.chunk.css.map": "/static/css/main.a68ed4fc.chunk.css.map",
     "static/js/2.5330bec1.chunk.js.LICENSE.txt": "/static/js/2.5330bec1.chunk.js.LICENSE.txt",
     "static/media/WhatsApp Image 2021-06-07 at 23.56.50.603e2352.jpeg": "/static/media/WhatsApp Image 2021-06-07 at 23.56.50.603e2352.jpeg",
     "static/media/imagen1.ec53a0ca.jpg": "/static/media/imagen1.ec53a0ca.jpg",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.a8824189.js",
     "static/js/2.5330bec1.chunk.js",
-    "static/css/main.1c537558.chunk.css",
+    "static/css/main.a68ed4fc.chunk.css",
     "static/js/main.565d9e10.chunk.js"
   ]
 }
