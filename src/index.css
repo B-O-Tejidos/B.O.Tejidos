@@ -1529,9 +1529,15 @@ br{
 }
 
 @media ( max-width: 400px ) {
+    .img img{
+        margin-top: 70px;
+    }
+    .imagenes img{
+        margin-top: 70px;
+    }
     .imagen-siguiente img{
         margin-top: 50px;
-        width: px;
+        width: 60px;
         height: 60px;
     }
     .imagen-siguiente a span{
@@ -1625,6 +1631,12 @@ br{
 }
 
 @media ( max-width: 375px ) {
+    .img img{
+        margin-top: 60px;
+    }
+    .imagenes img{
+        margin-top: 60px;
+    }
     .imagen-siguiente a span{
         padding-left: 10%;
         color: white;
@@ -1700,6 +1712,12 @@ br{
 }
 
 @media ( max-width: 350px ) {
+    .img img{
+        margin-top: 50px;
+    }
+    .imagenes img{
+        margin-top: 50px;
+    }
     .imagen-siguiente a span{
         padding-left: 10%;
         color: white;
@@ -1781,6 +1799,12 @@ br{
 }
 
 @media ( max-width: 325px ) {
+    .img img{
+        margin-top: 40px;
+    }
+    .imagenes img{
+        margin-top: 40px;
+    }
     .imagen-siguiente a span{
         padding-left: 10%;
         color: white;
