@@ -92,12 +92,14 @@ export const BarraDeNavegacion = () => {
                     </div>
                 </div>
 
-                <div className="contactos" id="cont">
-                    <a href=""><i class="fab fa-facebook"></i></a>
-                    <a href=""><i class="fab fa-instagram"></i></a>
-                    <a href=""><i class="fab fa-whatsapp"></i></a>
-                    <a href=""><i class="fab fas fa-map-marker-alt"></i></a>
+                <div className="centro">
+                    <div className="contactos" id="cont">
+                        <a href=""><i class="fab fa-facebook"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-whatsapp"></i></a>
+                        <a href=""><i class="fab fas fa-map-marker-alt"></i></a>
                     </div>
+                </div>
                 <div className="contactos" id="contactos">
                     <a href=""><i class="fab fa-facebook"></i></a>
                     <a href=""><i class="fab fa-instagram"></i></a>

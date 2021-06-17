@@ -6,9 +6,11 @@ export const NuevaBarra = () => {
         <div>
             
             <div className="buscar">
-                <input type="text" placeholder="Busca tu producto aqui..." />
+                <div className="centro">
                 <div className="botn">
-                    <i className="fas fa-search icon"></i>
+                <i className="fas fa-search icon"></i>
+                </div>
+                    <input type="text" placeholder="Busca tu producto aqui..." />
                 </div>
             </div>
 
