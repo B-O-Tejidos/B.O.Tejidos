@@ -1067,6 +1067,89 @@ br{
 .footer-copy a{
     color: #c7c7c7;
 }
+.btn-productos{
+    display: none;
+    width: 57%;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 49px;
+}
+
+.btn-productos a{
+    position: absolute;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: blueviolet;
+    border: 5px solid white;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    transition: all .5s ease;
+}
+
+.btn-productos a:hover{
+    color: blueviolet;
+    background-color: #ffffff;
+    border: 5px solid blueviolet;
+
+}
+.buscar{
+    display: none;
+
+    position: absolute;
+    padding: 5px;
+}
+.buscar input{
+    margin-left: 10px;
+    margin-top: 70px;
+    width: 0px;
+    height: 40px;
+    padding: 0 20px;
+    font-size: 18px;
+    color: black;
+    outline: none;
+    border: 2px solid blueviolet;
+    border-radius: 30px;
+    transition: all 0.6s ease;
+}
+.botn{
+    position: absolute;
+    top: 70px;
+    left: 10px;
+    background-color: blueviolet;
+    width: 50px;
+    height: 50px;
+    line-height: 64px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.botn i{
+    font-size: 30px;
+}
+
+.buscar .contactos{
+    margin-top: 65px;
+    padding-left:100px;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.buscar:hover input{
+    margin-left: 35px;
+    width: 250px;
+}
+.buscar:hover .contactos{
+    margin-top: 115px;
+    padding-left: 0px;
+    display: none;
+}
+.buscar input:focus{
+    width: 250px;
+}
 
 
 /*-----------------------------------------------------------------------------------------------------*/
@@ -1386,6 +1469,12 @@ br{
 }
 
 @media ( max-width: 425px ) {
+    #contactos{
+        display: none;
+    }
+    .buscar{
+        display: flex;
+    }
     .colores{
         max-width: 100%;
         display: inline-block;
@@ -1399,6 +1488,7 @@ br{
         margin-top: 80px;
     }
     .colores .paleta{
+        line-height: 19px;
         text-align: center;
         margin-top: 0px;
         padding-top: 0px;
@@ -1466,6 +1556,7 @@ br{
         padding-left: 45px;
     }
     .logo{
+        width: 93%;
         text-align: center;
         padding-left: 10px;
         padding-right: 10px;
@@ -1576,7 +1667,9 @@ br{
         margin-right: 2px;
         font-size: 11px;
     }
-    
+    .colores .paleta{
+        line-height: 15px;
+    }
     .guia li{
         color: #c7c7c7;
         font-size: 11px;
@@ -1592,6 +1685,12 @@ br{
     .galerias .items .descripcion h4{
         text-align: center;
         font-size: 33px;
+    }
+    .logo{
+        width: 92%;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .logo{
         margin-top: 80px;
@@ -1632,6 +1731,29 @@ br{
 }
 
 @media ( max-width: 375px ) {
+    .footer-contacto label{
+        font-size: 28px;
+        color: #c7c7c7;
+    }
+    .footer-contacto p{
+        font-size: 18px;
+        color: #838383;
+        padding-top: 10px;
+    }
+    .footer-copy{
+        background-color: #000000;
+        color: #838383;
+        font-size: 13px;
+    }
+    .logo{
+        width: 91%;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .colores label{
+        margin-left: 20%;
+    }
     .botones-ligthbox{
         margin-top: 60px;
     }
@@ -1677,6 +1799,9 @@ br{
         margin-right: 2px;
         font-size: 9px;
     }
+    .colores .paleta{
+        line-height: 13px;
+    }
     .guia li{
         color: #c7c7c7;
         font-size: 10px;
@@ -1717,6 +1842,32 @@ br{
 }
 
 @media ( max-width: 350px ) {
+    .footer-contacto label{
+        font-size: 26px;
+        color: #c7c7c7;
+    }
+    .footer-contacto p{
+        font-size: 16px;
+        color: #838383;
+        padding-top: 10px;
+    }
+    .footer-copy{
+        background-color: #000000;
+        color: #838383;
+        font-size: 11px;
+    }
+    .logo{
+        width: 90%;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .colores label{
+        margin-left: 20%;
+    }
+    .colores .paleta{
+        line-height: 11px;
+    }
     .botones-ligthbox{
         margin-top: 50px;
     }
@@ -1808,6 +1959,18 @@ br{
 }
 
 @media ( max-width: 325px ) {
+    .logo{
+        width: 88%;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .colores label{
+        margin-left: 20%;
+    }
+    .colores .paleta{
+        line-height: 10px;
+    }
     .botones-ligthbox{
         margin-top: 40px;
     }

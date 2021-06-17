@@ -126,7 +126,7 @@ export const ReginellaFiltro = () => {
                                 <div className="paleta">
                                     <label className="color1">A</label>                         
                                         <li>Color: 001</li>
-                                        <br />
+                                        <br className="br"/>
                                         <br />
                                         <br />
                                     <label className="color2">A</label>                          
