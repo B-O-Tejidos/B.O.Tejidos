@@ -70,7 +70,7 @@ import { ElasticoFiltro } from '../filtros/accesorios/ElasticoFiltro';
 import { VariosTodoFiltro } from '../filtros/varios/VariosTodoFiltro';
 import { NuevoFiltro } from '../filtros/varios/NuevoFiltro';
 import { UsadoFiltro } from '../filtros/varios/UsadoFiltro';
-import { BotonProducto } from '../complementos/botones/BotonProducto';
+import { NuevaBarra } from '../complementos/navegacion/NuevaBarra';
 
 export const AppRouter = () => {
 
@@ -80,7 +80,7 @@ export const AppRouter = () => {
       <Preloader />,
       <BarraDeNavegacion />,
       <Logo />,
-      <BotonProducto />
+      <NuevaBarra />
 
       <div className="listado">
       <nav>

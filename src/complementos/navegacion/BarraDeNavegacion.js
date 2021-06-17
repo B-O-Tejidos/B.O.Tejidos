@@ -92,19 +92,12 @@ export const BarraDeNavegacion = () => {
                     </div>
                 </div>
 
-                <div className="buscar">
-                    <input type="text" placeholder="Busca tu producto aqui..." />
-                    <div className="botn">
-                        <i className="fas fa-search icon"></i>
-                    </div>
-                    <div className="contactos">
+                <div className="contactos" id="cont">
                     <a href=""><i class="fab fa-facebook"></i></a>
                     <a href=""><i class="fab fa-instagram"></i></a>
                     <a href=""><i class="fab fa-whatsapp"></i></a>
                     <a href=""><i class="fab fas fa-map-marker-alt"></i></a>
-                </div>
-                </div>
-
+                    </div>
                 <div className="contactos" id="contactos">
                     <a href=""><i class="fab fa-facebook"></i></a>
                     <a href=""><i class="fab fa-instagram"></i></a>
