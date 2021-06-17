@@ -1094,16 +1094,13 @@ br{
 
 }
 .buscar{
+    position: absolute;
     text-align: center;
     display: none;
-    padding: 2px;
-    margin-bottom: 10px;
 }
 .buscar input{
     margin-top: 5px;
-    text-align: center;
-    padding-top: 0;
-    margin-left: 25%;
+    margin-left: 42%;
     width: 250px;
     height: 40px;
     padding: 0 20px;
@@ -1115,9 +1112,10 @@ br{
     transition: all 0.5s ease;
 }
 .botn{
+    margin-left: 30%;
+    text-align: center;
     margin-bottom: 10px;
     position: absolute;
-    margin-left: 18%;
     background-color: blueviolet;
     width: 50px;
     height: 50px;
@@ -1126,13 +1124,11 @@ br{
     color: white;
     font-size: 15px;
     border-radius: 50%;
-    cursor: pointer;
 }
 
 .botn i{
     font-size: 30px;
 }
-
 #cont{
     display: none;
 }
@@ -1454,17 +1450,21 @@ br{
 }
 
 @media ( max-width: 425px ) {
+    .listado{
+        margin-top: 70px;
+    }
     #cont{
         display: block;
     }
-    .contactos{
+    .contactos .fab{
         align-items: center;
         text-align: center;
-        margin-right: 0;
+        margin-right: 20px;
+        margin-left: 0px;
         padding-right: 0;
     }
     .contactos{
-        padding-right: 18%;
+        padding-right: 7%;
     }
     #contactos{
         display: none;
