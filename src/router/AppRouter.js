@@ -73,6 +73,12 @@ import { UsadoFiltro } from '../filtros/varios/UsadoFiltro';
 import { NuevaBarra } from '../complementos/navegacion/NuevaBarra';
 import { BotonProducto } from '../complementos/botones/BotonProducto';
 import { BotonCategorias } from '../complementos/botones/BotonCategorias';
+import { BotonCategoriasLanas } from '../complementos/botones/BotonCategoriasLanas';
+import { BotonCategoriasHilos } from '../complementos/botones/BotonCategoriasHilos';
+import { BotonCategoriasPalillos } from '../complementos/botones/BotonCategoriasPalillos';
+import { BotonCategoriasCrochet } from '../complementos/botones/BotonCategoriasCrochet';
+import { BotonCategoriasAccesorios } from '../complementos/botones/BotonCategoriasAccesorios';
+import { BotonCategoriasVarios } from '../complementos/botones/BotonCategoriasVarios';
 
 export const AppRouter = () => {
 
@@ -188,8 +194,9 @@ export const AppRouter = () => {
       <div>
 
           <LanasPagina />
+          <BotonCategoriasLanas />
 
-          <ul>
+          <ul id="lanasbtn">
             <li>
                 <Link exact to="/lanas" className="activo">Todos</Link>
               </li>
@@ -239,8 +246,9 @@ export const AppRouter = () => {
       <div>
 
           <HilosPagina />
+          <BotonCategoriasHilos />
 
-          <ul>
+          <ul id="hilosbtn">
             <li>
               <Link exact to="/hilos" className="activo">Todos</Link>
             </li>
@@ -290,8 +298,9 @@ export const AppRouter = () => {
         <div>
     
           <PalillosPagina />
+          <BotonCategoriasPalillos />
   
-          <ul>
+          <ul id="palillosbtn">
             <li>
                 <Link exact to="/palillos" className="activo">Todos</Link>
               </li>
@@ -337,8 +346,9 @@ export const AppRouter = () => {
         <div>
     
           <CrochetsPagina />
+          <BotonCategoriasCrochet />
   
-          <ul>
+          <ul id="crochetbtn">
             <li>
                 <Link exact to="/crochet" className="activo">Todos</Link>
               </li>
@@ -385,8 +395,9 @@ function AccesoriosRouter() {
     <div>
 
       <AccesoriosPagina />
+      <BotonCategoriasAccesorios />
 
-      <ul>
+      <ul id="accesoriosbtn">
         <li>
             <Link exact to="/accesorios" className="activo">Todos</Link>
           </li>
@@ -452,8 +463,9 @@ function AccesoriosRouter() {
       <div>
 
           <VariosPagina />
+          <BotonCategoriasVarios />
   
-          <ul>
+          <ul id="variosbtn">
             <li>
                 <Link exact to="/varios" className="activo">Todos</Link>
               </li>

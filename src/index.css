@@ -1154,6 +1154,42 @@ br{
     #tejidosbtn:target{
         display: block;
     }
+    #lanasbtn{
+        display: none;
+    }
+    #lanasbtn:target{
+        display: block;
+    }
+    #hilosbtn{
+        display: none;
+    }
+    #hilosbtn:target{
+        display: block;
+    }
+    #palillosbtn{
+        display: none;
+    }
+    #palillosbtn:target{
+        display: block;
+    }
+    #crochetbtn{
+        display: none;
+    }
+    #crochetbtn:target{
+        display: block;
+    }
+    #accesoriosbtn{
+        display: none;
+    }
+    #accesoriosbtn:target{
+        display: block;
+    }
+    #variosbtn{
+        display: none;
+    }
+    #variosbtn:target{
+        display: block;
+    }
     .navbar .contactos .fab{
         margin-left: 0px;
     }
