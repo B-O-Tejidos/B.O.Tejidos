@@ -71,6 +71,8 @@ import { VariosTodoFiltro } from '../filtros/varios/VariosTodoFiltro';
 import { NuevoFiltro } from '../filtros/varios/NuevoFiltro';
 import { UsadoFiltro } from '../filtros/varios/UsadoFiltro';
 import { NuevaBarra } from '../complementos/navegacion/NuevaBarra';
+import { BotonProducto } from '../complementos/botones/BotonProducto';
+import { BotonCategorias } from '../complementos/botones/BotonCategorias';
 
 export const AppRouter = () => {
 
@@ -81,10 +83,11 @@ export const AppRouter = () => {
       <BarraDeNavegacion />,
       <Logo />,
       <NuevaBarra />
+      <BotonProducto />
 
       <div className="listado">
       <nav>
-          <ul>
+          <ul id="listado">
           <li>
               <Link to="/">Inicio</Link>
             </li>
@@ -137,8 +140,9 @@ export const AppRouter = () => {
   
           <IconoPagina />
           <TejidosPagina />
+          <BotonCategorias />
   
-          <ul>
+          <ul id="tejidosbtn">
             <li>
                 <Link exact to="/tejidos" className="activo">Todos</Link>
               </li>

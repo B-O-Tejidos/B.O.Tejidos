@@ -27,10 +27,9 @@ body{
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+    z-index: -2;
     height: 100%;
     width: 100%;
-    z-index: -2;
-    animation: zoomInOut 20s ease infinite;
 }
 
 /*-----------------------------------------------------------------------------------------------------*/
@@ -44,7 +43,6 @@ body{
     box-sizing: border-box;
     font-family: arial;
 }
-
 /*-----------------------------------------------------------------------------------------------------*/
 /*-----------------------------------------------------------------------------------------------------*/
 
@@ -492,6 +490,7 @@ tbody tr td a:hover{
     width: 90%;
     height: 350px;
     transition: all .5s ease;
+    animation: zoomInOut 20s ease infinite;
 }
 
 .galerias .items .descripcion h4{
@@ -1068,15 +1067,15 @@ br{
     color: #c7c7c7;
 }
 .btn-productos{
-    display: none;
-    width: 57%;
+    margin-top: 60px;
     text-align: center;
-    padding: 20px;
-    margin-bottom: 49px;
 }
-
+.categorias{
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
 .btn-productos a{
-    position: absolute;
+    position: relative;
     border-radius: 20px;
     padding: 10px;
     background-color: blueviolet;
@@ -1094,7 +1093,7 @@ br{
 
 }
 .buscar{
-    position: static;
+    position: relative;
     text-align: center;
     display: none;
 }
@@ -1137,11 +1136,24 @@ br{
 #cont{
     display: none;
 }
-
 /*-----------------------------------------------------------------------------------------------------*/
 /*-----------------------------------------------------------------------------------------------------*/
 
 @media ( max-width: 1100px ) {
+    #listado{
+        display: none;
+    }
+    #listado:target{
+        padding-top: 0;
+        margin-top: 0;
+        display: block;
+    }
+    #tejidosbtn{
+        display: none;
+    }
+    #tejidosbtn:target{
+        display: block;
+    }
     .navbar .contactos .fab{
         margin-left: 0px;
     }
