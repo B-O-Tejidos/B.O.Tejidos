@@ -95,7 +95,7 @@ export const AppRouter = () => {
       <nav>
           <ul id="listado">
           <li>
-              <Link to="/">Inicio</Link>
+              <Link to="/" className="activo">Inicio</Link>
             </li>
             <li>
               <Link to="/tejidos">Tejidos</Link>

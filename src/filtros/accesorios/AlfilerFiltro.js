@@ -7,16 +7,21 @@ export const AlfilerFiltro = () => {
     return (
         <div className="galerias">
 
-                <div className="items">
+                <div className="movil items">
                     <div className="iner">
                         <div className="caja">
+                        <div className="guia">
+                                        <li>Haz CLICK en la foto para mas detalles</li>
+                                    </div>
                             <img src="http://1.bp.blogspot.com/-iiSvZj_bx6U/VHZB6-M9-MI/AAAAAAAAMgQ/h3fS5D0aUXw/s1600/Surtido%2BAlfileres.jpg" alt=""/>
                         </div>
                         <div className="descripcion">
                             <h4>Alfileres</h4>
                             <ul>
                                 <li>Tamaño: 3cm</li>
+                                <br />
                                 <li>Cantidad: 50 por bolsa</li>
+                                <br />
                                 <li>Precio: $2.000</li>
                             </ul>
                         </div>
@@ -24,7 +29,7 @@ export const AlfilerFiltro = () => {
                 </div>      
                        
 
-                        <div className="items">
+                        <div className="movil items">
                             <div className="iner">
                                 <div className="caja">
                                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyCHNVntW4t6ofGtgPHPDe5ttC6pTVgpvUQuk_sPFo-HN6xyOMr7SBMhAI8uJyGWfR6Z0&usqp=CAU" alt=""/>

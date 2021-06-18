@@ -7,9 +7,12 @@ export const LanabelFiltro = () => {
     return (
         <div className="galerias">
             
-                        <div className="items">
+                        <div className="movil items">
                             <div className="iner">
                                 <div className="caja">
+                                <div className="guia">
+                                        <li>Haz CLICK en la foto para mas detalles</li>
+                                    </div>
                                     <img src="https://images4-f.ravelrycache.com/uploads/Chinch/428825865/IMG_0459_small2.JPG" alt=""/>
                                 </div>
                                 <div className="descripcion">
@@ -25,7 +28,7 @@ export const LanabelFiltro = () => {
                             </div>    
                         </div>
 
-                        <div className="items">
+                        <div className="movil items">
                             <div className="iner">
                                 <div className="caja">
                                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyCHNVntW4t6ofGtgPHPDe5ttC6pTVgpvUQuk_sPFo-HN6xyOMr7SBMhAI8uJyGWfR6Z0&usqp=CAU" alt=""/>

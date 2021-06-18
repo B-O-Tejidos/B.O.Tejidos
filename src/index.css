@@ -178,6 +178,10 @@ body{
     transition: all .5s ease;
 }
 
+.listado ul li .activo{
+    color: #ff7ea8;
+}
+
 .listado ul li a:hover{
     color: #ff7ea8;
 }
@@ -1136,10 +1140,22 @@ br{
 #cont{
     display: none;
 }
+.btn-productos{
+    display: none;
+}
+.categorias{
+    display: none;
+}
 /*-----------------------------------------------------------------------------------------------------*/
 /*-----------------------------------------------------------------------------------------------------*/
 
 @media ( max-width: 1100px ) {
+    .categorias{
+        display: block;
+    }
+    .btn-productos{
+        display: block;
+    }
     #listado{
         display: none;
     }
