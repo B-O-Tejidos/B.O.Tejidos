@@ -1,6 +1,7 @@
 import React from 'react';
 import { BotonesSubirPedidos } from '../../complementos/botones/BotonesSubirPedidos';
 import { PiePagina } from '../../complementos/footer/PiePagina';
+import { FooterMovil } from '../../complementos/footer/FooterMovil';
 
 export const CModistaFiltro = () => {
 
@@ -50,6 +51,7 @@ export const CModistaFiltro = () => {
 
             <BotonesSubirPedidos />
             <PiePagina />
+            <FooterMovil />
 
         </div>
     );

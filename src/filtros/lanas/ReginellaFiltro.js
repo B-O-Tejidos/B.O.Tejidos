@@ -1,6 +1,7 @@
 import React from 'react';
 import { BotonesSubirPedidos } from '../../complementos/botones/BotonesSubirPedidos';
 import { PiePagina } from '../../complementos/footer/PiePagina';
+import { FooterMovil } from '../../complementos/footer/FooterMovil';
 import imagenprueba from '../../WhatsApp Image 2021-06-07 at 23.56.50.jpeg';
 
 export const ReginellaFiltro = () => {
@@ -213,6 +214,7 @@ export const ReginellaFiltro = () => {
 
 
             <PiePagina />
+            <FooterMovil />
 
         </div>
     );
