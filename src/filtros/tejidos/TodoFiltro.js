@@ -7,7 +7,6 @@ export const TodoFiltro = () => {
 
     return (
         <div>
-            
                 <div className="galerias">
                         <div className="movil items">
                             <div className="iner" id="img.0">
@@ -22,7 +21,9 @@ export const TodoFiltro = () => {
                                     <h4>Chaleco</h4>
                                     <ul>
                                         <li>Talla: XXL</li>
+                                        <br />
                                         <li>Color: Blanco Invierno</li>
+                                        <br />
                                         <li>Precio: $25.000</li>
                                     </ul>
                                 </div>
@@ -42,6 +43,7 @@ export const TodoFiltro = () => {
                                         <li>Talla: L</li>
                                         <br />
                                         <li>Color: Verde y Gris</li>
+                                        <br />
                                         <li>Precio: $15.000</li>
                                     </ul>
                                 </div>
@@ -61,6 +63,7 @@ export const TodoFiltro = () => {
                                         <li>Talla: XL</li>
                                         <br />
                                         <li>Color: Rojo</li>
+                                        <br />
                                         <li>Precio: $18.000</li>
                                     </ul>
                                 </div>
@@ -78,7 +81,9 @@ export const TodoFiltro = () => {
                                     <h4>Bufanda</h4>
                                     <ul>
                                         <li>Talla: M</li>
+                                        <br />
                                         <li>Color: Colores Mixtos</li>
+                                        <br />
                                         <li>Precio: $12.000</li>
                                     </ul>
                                 </div>
@@ -98,6 +103,7 @@ export const TodoFiltro = () => {
                                         <li>Talla: L</li>
                                         <br />
                                         <li>Color: Verde</li>
+                                        <br />
                                         <li>Precio: $8.000</li>
                                     </ul>
                                 </div>
@@ -117,6 +123,7 @@ export const TodoFiltro = () => {
                                         <li>Talla: S</li>
                                         <br />
                                         <li>Color: Rosa</li>
+                                        <br />
                                         <li>Precio: $5.000</li>
                                     </ul>
                                 </div>
