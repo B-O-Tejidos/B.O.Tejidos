@@ -2488,14 +2488,16 @@ br{
     }
 }
 
-@media ( max-width: 700px ) {
+/* Adaptado para todo tipo de movil */
+
+@media ( max-width: 725px ) {
     .galerias .movil{
         padding-left: 30px;
         padding-right: 30px;
     }
     .slider img{
         box-shadow: 0px 0px 10px 0px black;
-        width: 90%;
+        width: 85%;
         height: 280px;
         border: 5px solid blueviolet;
         border-radius: 10%;
@@ -2507,7 +2509,7 @@ br{
         display: block;
     }
     .listado{
-        margin-top: 70px;
+        margin-top: 30px;
     }
     #cont{
         margin-right: 0;
@@ -2536,6 +2538,8 @@ br{
         margin-top: 80px;
     }
     .colores .paleta{
+        margin-left: 10px;
+        margin-right: 10px;
         line-height: 20px;
         text-align: center;
         margin-top: 0px;
@@ -2597,7 +2601,7 @@ br{
     }
     .guia li{
         color: #c7c7c7;
-        font-size: 9px;
+        font-size: 11px;
         padding: 3px;
     }
     .galerias .items .descripcion ul{
@@ -2634,15 +2638,6 @@ br{
         text-align: center;
         font-size: 34px;
     }
-    .galerias .items{
-        margin-bottom: 15px;
-        margin-top: 15px;
-        flex:100%;
-        max-width: 100%;
-        position: relative;
-        padding-left: 8px;
-        padding-right: 8px;
-    }
     .galerias .movil{
         padding-left: 30px;
         padding-right: 30px;
@@ -2656,7 +2651,7 @@ br{
         align-items: center;
         text-align: center;
         margin-left: 0%;
-        margin-right: 7%;
+        margin-right: 0%;
     
     }
     .navbar .contactos{
@@ -2700,17 +2695,15 @@ br{
         padding-right: 10px;
     }
     .galerias .items .caja img{
-        height: 240px;
+        height: 260px;
     }
     .galerias .items .descripcion h4{
         text-align: center;
-        font-size: 32px;
+        font-size: 35px;
     }
     .galerias .items .descripcion ul li{
-        padding-left: 0px;
-        margin-left: 0px;
         color: #ffffff;
-        font-size: 22px;
+        font-size: 25px;
     }
     .btn-pedido button{
         padding-top: 8px;
@@ -2726,244 +2719,225 @@ br{
     #input-search{
         display: none;
     }
-    .galerias .movil{
-        padding-left: 30px;
-        padding-right: 30px;
+
+}
+
+@media ( max-width: 700px ) {
+    .slider img{
+        width: 85%;
+        height: 275px;
+    }
+    .titulo h2{
+        font-size: 108px;
     }
 }
 
-@media ( max-width: 600px ) {
+@media ( max-width: 675px ) {
+    .titulo h2{
+        font-size: 107px;
+    }
+    .slider img{
+        width: 85%;
+        height: 270px;
+    }
     .guia li{
-        color: #c7c7c7;
-        font-size: 14px;
-        padding: 3px;
+        font-size: 10px;
     }
-    .galerias .movil{
+}
+
+@media ( max-width: 650px ) {
+    .titulo h2{
+        font-size: 106px;
+    }
+    .slider img{
+        width: 85%;
+        height: 265px;
+    }
+    .galerias .items .descripcion ul{
         padding-left: 30px;
-        padding-right: 30px;
     }
-    .colores .paleta{
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-    body{
-        padding: 0;
-        margin: 0;
-        max-width: 100%;
-    }
-    .galerias{
-        flex:100%;
-        max-width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .galerias .items{
-        margin-top: 30px;
-        flex:100%;
-        max-width: 100%;
-        position: relative;
-        padding: 10px;
-        padding-left: 60px;
-        padding-right: 60px;
+    .guia li{
+        font-size: 9px;
     }
     .galerias .items .caja img{
-        height: 350px;
-    }
-    .galerias .items .descripcion h4{
-        text-align: center;
-        font-size:45px;
-    }
-    .galerias .items .descripcion ul li{
-        color: #ffffff;
-        font-size: 25px;
+        height: 250px;
     }
     .btn-pedido{
         align-items: center;
         text-align: center;
-        margin-left: 25%;
+        margin-left: 31%;
+
+    }
+}
+
+@media ( max-width: 625px ) {
+    .titulo h2{
+        font-size: 105px;
+    }
+    .slider img{
+        width: 85%;
+        height: 260px;
+    }
+    .galerias .items .descripcion ul li{
+        font-size: 22px;
+    }
+    .galerias .items .caja img{
+        height: 240px;
+    }
+    .galerias .items .descripcion ul{
+        padding-left: 30px;
+    }
+    .btn-pedido{
+        align-items: center;
+        text-align: center;
+        margin-left: 29%;
+
+    }
+}
+
+@media ( max-width: 600px ) {
+    .titulo h2{
+        font-size: 104px;
+    }
+    .slider img{
+        width: 85%;
+        height: 255px;
+    }
+    .galerias .items .caja img{
+        height: 220px;
+    }
+    .btn-pedido{
+        align-items: center;
+        text-align: center;
+        margin-left: 26%;
 
     }
       
 }
 
-@media ( max-width: 500px ) {
-    .slider img{
-        box-shadow: 0px 0px 10px 0px black;
-        width: 100%;
-        height: 250px;
-        border: 5px solid blueviolet;
-        border-radius: 10%;
-    }
-    .content-all{
-        display: none;
-    }
-    .slider{
-        display: block;
-    }
-    .listado{
-        margin-top: 30px;
-    }
-    #cont{
-        margin-right: 0;
-        display: block;
-    }
-    .contactos a{
-        margin-left: 15px;
-        margin-right: 15px;
-    }
-    #contactos{
-        display: none;
-    }
-    .buscar{
-        display: flex;
-    }
-    .colores{
-        max-width: 100%;
-        display: inline-block;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        margin-top:81px;
-        margin-left: 12%;
-    }
-    .botones-ligthbox{
-        margin-top: 80px;
-    }
-    .colores .paleta{
-        line-height: 19px;
-        text-align: center;
-        margin-top: 0px;
-        padding-top: 0px;
-        flex:25%;
-        max-width: 25%;
-        display: inline-block;
-    
-    }
-    .colores li{
-        text-align: center;
-        margin-left: 2px;
-        margin-right: 2px;
-        font-size: 12px;
-        font-weight: 10px;
-    }
-    
-    .colores label{
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        margin-left: 30%;
-        margin-bottom: 0px;
-    }    
-    .imagen-siguiente img{
-        margin-top: 50px;
-        width: 70px;
-        height: 70px;
-    }
-    .imagen-siguiente a span{
-        margin-top: 5px;
-        padding-left: 10%;
-        color: white;
-        font-size: 15px;
-        display: flex;
-    }
-    .img img{
-        margin-top: 80px;
-        width: 70%;
-        height: 300px;
-        max-width: 100%;
-        border: 7px solid blueviolet;
-        box-sizing: border-box;
-    }
-    .imagenes img{
-        margin-top: 80px;
-        width: 86%;
-        height: 300px;
-        max-width: 100%;
-        border: 7px solid blueviolet;
-        box-sizing: border-box;
-    }
-    .otras-img img{
-        margin-top: 50px;
-        margin-left: 15px;
-        margin-right: 15px;
-        width: 70px;
-        height: 70px;
-    }
-    .guia li{
-        color: #c7c7c7;
-        font-size: 14px;
-        padding: 3px;
-    }
-    .galerias .items .descripcion ul{
-        padding-left: 45px;
-    }
-    .logo{
-        padding-bottom: 0px;
-        margin-bottom: 0px;
-        width: 93%;
-        text-align: center;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
+@media ( max-width: 575px ) {
     .titulo h2{
-        font-size: 84px;
-        font-weight: 550;
+        font-size: 103px;
     }
-    .tejidos{
-        padding: 25px;
-        text-align: center;
-        padding-top: 0px;
-    }
-    .lanas{
-        padding: 25px;
-    }
-    .galerias .items .descripcion ul li{
-        color: #ffffff;
-        font-size: 32px;
-    }
-    .galerias .items .caja img{
-        height: 330px;
-    }
-    .galerias .items .descripcion h4{
-        text-align: center;
-        font-size: 42px;
-    }
-    .galerias .items{
-        margin-top: 30px;
-        flex:100%;
-        max-width: 100%;
-        position: relative;
-        padding-left: 8px;
-        padding-right: 8px;
-    }
-    .galerias .movil{
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-    .btn-pedido button{
-        padding-top: 7px;
-        padding-bottom: 7px;
-        font-size: 19px;
+    .slider img{
+        width: 85%;
+        height: 250px;
     }
     .btn-pedido{
         align-items: center;
         text-align: center;
-        margin-left: 0%;
-        margin-right: 0%;
-    
+        margin-left: 22%;
+
     }
-    .navbar .contactos{
+    .guia li{
+        font-size: 8px;
+    }
+    .galerias .items .caja img{
+        height: 210px;
+    }
+    .galerias .items .descripcion ul li{
+        font-size: 21px;
+    }
+}
+
+@media ( max-width: 550px ) {
+    .colores .paleta{
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+    .galerias .items .caja img{
+        height: 200px;
+    }
+    .galerias .items .descripcion ul{
+        padding-left: 25px;
+    }
+    .btn-pedido{
         align-items: center;
+        text-align: center;
+        margin-left: 18%;
+
     }
-    .footer-movil{
-        flex: 100%;
+    .slider img{
+        width: 85%;
+        height: 245px;
+    }
+    .titulo h2{
+        font-size: 102px;
+    }
+    .galerias .items .descripcion ul li{
+        font-size: 20px;
+    }
+    .galerias .items .descripcion h4{
+        font-size: 34px;
+    }
+    
+}
+
+@media ( max-width: 525px ) {
+    .btn-pedido{
+        align-items: center;
+        text-align: center;
+        margin-left: 14%;
+
+    }
+    .galerias .items .descripcion h4{
+        font-size: 32px;
+    }
+    .colores .paleta{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .guia li{
+        font-size: 7px;
+    }
+    .galerias .items .caja img{
+        height: 190px;
+    }
+    .slider img{
+        width: 85%;
+        height: 240px;
+    }
+    .titulo h2{
+        font-size: 101px;
+    }
+    .galerias .items .descripcion ul li{
+        font-size: 19px;
+    }
+}
+
+@media ( max-width: 500px ) {
+    .galerias .items .descripcion ul{
+        padding-left: 40px;
+    }
+    .galerias .items .descripcion ul li{
+        font-size: 28px;
+    }
+    .galerias .items .descripcion h4{
+        font-size: 44px;
+    }
+    .btn-pedido{
+        align-items: center;
+        text-align: center;
+        margin-left: 10%;
+    }
+    .guia li{
+        font-size: 14px;
+    }
+    .galerias .items .caja img{
+        height: 320px;
+    }
+    .galerias .items{
+        flex:100%;
         max-width: 100%;
+        padding-left: 40px;
+        padding-right: 40px;
     }
-    #footer{
-        display: none;
+    .slider img{
+        width: 85%;
+        height: 235px;
     }
-    #pie-footer{
-        display: none;
+    .titulo h2{
+        font-size: 100px;
     }
 }
 
