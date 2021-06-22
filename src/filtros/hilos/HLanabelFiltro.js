@@ -6,7 +6,8 @@ import { FooterMovil } from '../../complementos/footer/FooterMovil';
 export const HLanabelFiltro = () => {
 
     return (
-        <div className="galerias">
+        <div>
+                    <div className="galerias">
             
             <div className="movil items">
                             <div className="iner">
@@ -46,6 +47,8 @@ export const HLanabelFiltro = () => {
                                 </div>
                             </div>
                         </div>  
+
+        </div>
 
             <BotonesSubirPedidos />
             <PiePagina />

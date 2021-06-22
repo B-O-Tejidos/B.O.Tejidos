@@ -48,8 +48,8 @@ export const AgujaCocerFiltro = () => {
                         </div>
 
             <BotonesSubirPedidos />
-            <PiePagina />
             <FooterMovil />
+            <PiePagina />
 
         </div>
     );

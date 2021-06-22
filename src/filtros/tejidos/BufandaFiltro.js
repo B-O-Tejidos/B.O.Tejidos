@@ -7,7 +7,8 @@ import { IconoPagina } from '../../complementos/icono/IconoPagina';
 export const BufandaFiltro = () => {
 
     return (
-        <div className="galerias">
+        <div>
+                    <div className="galerias">
             
             <IconoPagina />
 
@@ -49,6 +50,8 @@ export const BufandaFiltro = () => {
                                 </div>
                             </div>
                         </div>  
+
+        </div>
 
             <BotonesSubirPedidos />
             <PiePagina />

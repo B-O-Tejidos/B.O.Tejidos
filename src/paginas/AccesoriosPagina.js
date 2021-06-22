@@ -7,7 +7,7 @@ export const AccesoriosPagina = () => {
             
             <div className="Titulo">
                 <div className="titulo">
-                    <h2>≋ Accesorios de Tejidos ≋</h2>
+                    <h2>≋ Accesorios <span className="accesorios">de Tejidos </span>≋</h2>
                 </div>
             </div>
 

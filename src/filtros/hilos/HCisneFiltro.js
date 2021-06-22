@@ -6,7 +6,8 @@ import { FooterMovil } from '../../complementos/footer/FooterMovil';
 export const HCisneFiltro = () => {
 
     return (
-        <div className="galerias">
+    <div>
+                <div className="galerias">
             
             <div className="movil items">
                             <div className="iner">
@@ -47,10 +48,12 @@ export const HCisneFiltro = () => {
                             </div>
                         </div>  
 
+        </div>
+
             <BotonesSubirPedidos />
             <PiePagina />
             <FooterMovil />
 
-        </div>
+    </div>
     );
 };

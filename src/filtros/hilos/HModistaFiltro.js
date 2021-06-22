@@ -6,7 +6,8 @@ import { FooterMovil } from '../../complementos/footer/FooterMovil';
 export const HModistaFiltro = () => {
 
     return (
-        <div className="galerias">
+        <div>
+                    <div className="galerias">
             
             <div className="movil items">
                             <div className="iner">
@@ -44,6 +45,8 @@ export const HModistaFiltro = () => {
                                 </div>
                             </div>
                         </div>  
+
+        </div>
 
             <BotonesSubirPedidos />
             <PiePagina />

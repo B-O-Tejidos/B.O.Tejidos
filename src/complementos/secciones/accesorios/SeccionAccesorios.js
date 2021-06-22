@@ -8,7 +8,7 @@ export const SeccionAccesorios = () => {
             <div className="envase">
                 <div className="fila">
                     <div className="titulo">
-                        <h2>≋ Accesorios de Tejidos ≋</h2>
+                        <h2>≋ Accesorios <span className="accesorios">de Tejidos </span>≋</h2>
                     </div>
                     <div className="galerias">
                 <div className="items">

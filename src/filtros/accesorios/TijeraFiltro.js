@@ -6,7 +6,8 @@ import { FooterMovil } from '../../complementos/footer/FooterMovil';
 export const TijeraFiltro = () => {
 
     return (
-        <div className="galerias">
+        <div>
+                    <div className="galerias">
 
 <div className="movil items">
                     <div className="iner">
@@ -46,6 +47,8 @@ export const TijeraFiltro = () => {
                                 </div>
                             </div>
                         </div>
+
+        </div>
 
             <BotonesSubirPedidos />
             <PiePagina />

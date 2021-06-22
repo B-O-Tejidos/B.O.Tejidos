@@ -5,7 +5,7 @@ export const FooterMovil = () => {
     return (
         <div>
             
-            <div className='footer-movil'>
+            <footer className='footer-movil'>
                 <div className='footer-info'>
                     <div className='footer-logo'>
                         <img src='https://res.cloudinary.com/dy1o5vcd8/image/upload/v1623457255/B.O.Tejido/logo_c9yz4f.jpg'/>
@@ -31,7 +31,7 @@ export const FooterMovil = () => {
                 <div className='footer-copy'>
                     &copy; 2021 Todo los Derechos Reservados | <a href="">B.O. Tejidos</a>
                 </div>
-            </div>
+            </footer>
 
         </div>
     );

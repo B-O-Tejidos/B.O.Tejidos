@@ -6,7 +6,9 @@ import { FooterMovil } from '../../complementos/footer/FooterMovil';
 export const HuinchaFiltro = () => {
 
     return (
-        <div className="galerias">
+        <div>
+            
+            <div className="galerias">
 
                 <div className="movil items">
                     <div className="iner">
@@ -46,6 +48,8 @@ export const HuinchaFiltro = () => {
                                 </div>
                             </div>
                         </div>
+
+            </div>
 
             <BotonesSubirPedidos />
             <PiePagina />

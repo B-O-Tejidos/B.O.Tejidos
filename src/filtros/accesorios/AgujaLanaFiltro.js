@@ -6,7 +6,9 @@ import { FooterMovil } from '../../complementos/footer/FooterMovil';
 export const AgujaLanaFiltro = () => {
 
     return (
-        <div className="galerias">
+        <div>
+
+            <div className="galerias">
 
                 <div className="movil items">
                     <div className="iner">
@@ -46,6 +48,7 @@ export const AgujaLanaFiltro = () => {
                                 </div>
                             </div>
                         </div>
+            </div>
 
             <BotonesSubirPedidos />
             <PiePagina />
