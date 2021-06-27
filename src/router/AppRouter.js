@@ -70,7 +70,6 @@ import { ElasticoFiltro } from '../filtros/accesorios/ElasticoFiltro';
 import { VariosTodoFiltro } from '../filtros/varios/VariosTodoFiltro';
 import { NuevoFiltro } from '../filtros/varios/NuevoFiltro';
 import { UsadoFiltro } from '../filtros/varios/UsadoFiltro';
-import { NuevaBarra } from '../complementos/navegacion/NuevaBarra';
 import { BotonProducto } from '../complementos/botones/BotonProducto';
 import { BotonCategorias } from '../complementos/botones/BotonCategorias';
 import { BotonCategoriasLanas } from '../complementos/botones/BotonCategoriasLanas';
@@ -79,6 +78,7 @@ import { BotonCategoriasPalillos } from '../complementos/botones/BotonCategorias
 import { BotonCategoriasCrochet } from '../complementos/botones/BotonCategoriasCrochet';
 import { BotonCategoriasAccesorios } from '../complementos/botones/BotonCategoriasAccesorios';
 import { BotonCategoriasVarios } from '../complementos/botones/BotonCategoriasVarios';
+import { NuevaBarra } from '../complementos/navegacion/NuevaBarra';
 
 export const AppRouter = () => {
 

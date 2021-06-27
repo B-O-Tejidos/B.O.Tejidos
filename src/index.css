@@ -235,17 +235,31 @@ body{
 }
 
 .content-table{
-    width: 22.3%;
+    margin-top: 10px;
+    width: 93%;
     max-height: 200px;
     background-color: blueviolet;
     border: solid 2px #000000;
     margin-left: 10px;
     overflow-y: visible;
     overflow-x: hidden;
+    transition: all .5s ease;
 }
 
-.content-table table{
-    width: 100%;
+.content-table a{
+    text-decoration: none;
+}
+
+.content-table a li{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.content-table a li:hover{
+    background-color: #ff1d6e;
 }
 
 tbody tr td a{
