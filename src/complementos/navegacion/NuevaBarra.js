@@ -3,13 +3,13 @@ import React, { useState } from 'react';
 export const NuevaBarra = () => {
     
     const todos = [
-        { done: false, text: 'Lanas', href: "https://b-o-tejidos.github.io/lanas" },
-        { done: false, text: 'Hilos', href: "https://b-o-tejidos.github.io/hilos" },
-        { done: false, text: 'Tejidos', href: "https://b-o-tejidos.github.io/tejidos" },
-        { done: false, text: 'Varios', href: "https://b-o-tejidos.github.io/varios" },
-        { done: false, text: 'Palillos', href: "https://b-o-tejidos.github.io/palillos" },
-        { done: false, text: 'Crochet', href: "https://b-o-tejidos.github.io/crochet" },
-        { done: false, text: 'Accesorios', href: "https://b-o-tejidos.github.io/accesorios" },
+        { done: false, text: 'Lanas', href: "http://localhost:3002/lanas" },
+        { done: false, text: 'Hilos', href: "http://localhost:3002/hilos" },
+        { done: false, text: 'Tejidos', href: "http://localhost:3002/tejidos" },
+        { done: false, text: 'Varios', href: "http://localhost:3002/varios" },
+        { done: false, text: 'Palillos', href: "http://localhost:3002/palillos" },
+        { done: false, text: 'Crochet', href: "http://localhost:3002/crochet" },
+        { done: false, text: 'Accesorios', href: "http://localhost:3002/accesorios" },
     ];
 
     const [ busca, setBusca ] = useState('');
