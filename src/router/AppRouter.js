@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {
+  useHistory,
   BrowserRouter as Router,
   Switch,
   Route,
@@ -191,7 +192,7 @@ export const AppRouter = () => {
   function LanasRouter() {
 
     return (
-      <div>
+      <div id="buscarlanas">
 
           <LanasPagina />
           <BotonCategoriasLanas />
@@ -204,7 +205,7 @@ export const AppRouter = () => {
                 <Link  to="/lanas/cisne">Cisne</Link>
               </li>
               <li>
-                <Link to="/lanas/ukril">Ukryl</Link>
+                <Link to="/lanas/ukryl">Ukryl</Link>
               </li>
               <li>
                 <Link to="/lanas/reginella">Reginella</Link>
@@ -231,7 +232,7 @@ export const AppRouter = () => {
               <Route path="/lanas/modista" component = { ModistaFiltro } />
               <Route path="/lanas/reginella" component = { ReginellaFiltro } />
               <Route path="/lanas/revesderecho" component = { RevesderechoFiltro } />
-              <Route path="/lanas/ukril" component = { UkrilFiltro } />
+              <Route path="/lanas/ukryl" component = { UkrilFiltro } />
               <Route path="/lanas" component = { LanaTodoFiltro } />
   
           </Switch>
@@ -256,7 +257,7 @@ export const AppRouter = () => {
               <Link  to="/hilos/cisne">Cisne</Link>
             </li>
             <li>
-              <Link to="/hilos/ukril">Ukryl</Link>
+              <Link to="/hilos/ukryl">Ukryl</Link>
             </li>
             <li>
               <Link to="/hilos/reginella">Reginella</Link>
@@ -283,7 +284,7 @@ export const AppRouter = () => {
             <Route path="/hilos/modista" component = { HModistaFiltro } />
             <Route path="/hilos/reginella" component = { HReginellaFiltro } />
             <Route path="/hilos/revesderecho" component = { HRevesderechoFiltro } />
-            <Route path="/hilos/ukril" component = { HUkrilFiltro } />
+            <Route path="/hilos/ukryl" component = { HUkrilFiltro } />
             <Route path="/hilos" component = { HiloTodoFiltro } />
 
           </Switch>       
@@ -489,4 +490,3 @@ function AccesoriosRouter() {
     );
   };
 };
-

@@ -213,6 +213,9 @@ body{
     width: 100%;
     left: 0;
 }
+button{
+    position: static;
+}
 
 /*-----------------------------------------------------------------------------------------------------*/
 /*-----------------------------------------------------------------------------------------------------*/
@@ -243,22 +246,32 @@ body{
     margin-left: 10px;
     overflow-y: visible;
     overflow-x: hidden;
-    transition: all .5s ease;
-}
-
-.content-table a{
-    text-decoration: none;
+    transition: all .1s ease;
 }
 
 .content-table a li{
     text-decoration: none;
+    border: 1px solid #838383;
+}
+
+.content-table a button{
+    text-align: center;
+    display: flex;
     color: #ffffff;
-    font-size: 25px;
+    background-color: blueviolet;
+    font-size: 23px;
     padding-top: 5px;
     padding-bottom: 5px;
+    border: 6px solid blueviolet;
+    transition: all .1s ease;
 }
 
 .content-table a li:hover{
+    background-color: #ff1d6e;
+}
+
+.content-table a button:hover{
+    border: 6px solid #ff1d6e;
     background-color: #ff1d6e;
 }
 
@@ -2774,7 +2787,7 @@ br{
 
 @media ( max-width: 650px ) {
     .titulo h2{
-        font-size: 106px;
+        font-size: 102px;
     }
     .slider img{
         width: 85%;
@@ -2799,7 +2812,7 @@ br{
 
 @media ( max-width: 625px ) {
     .titulo h2{
-        font-size: 105px;
+        font-size: 98px;
     }
     .slider img{
         width: 85%;
@@ -2824,7 +2837,7 @@ br{
 
 @media ( max-width: 600px ) {
     .titulo h2{
-        font-size: 104px;
+        font-size: 94px;
     }
     .slider img{
         width: 85%;
@@ -2844,7 +2857,7 @@ br{
 
 @media ( max-width: 575px ) {
     .titulo h2{
-        font-size: 103px;
+        font-size: 90px;
     }
     .slider img{
         width: 85%;
@@ -2868,6 +2881,9 @@ br{
 }
 
 @media ( max-width: 550px ) {
+    .titulo h2{
+        font-size: 86px;
+    }
     .img img{
         margin-top: 80px;
         width: 80%;
@@ -2903,9 +2919,6 @@ br{
         width: 85%;
         height: 245px;
     }
-    .titulo h2{
-        font-size: 102px;
-    }
     .galerias .items .descripcion ul li{
         font-size: 20px;
     }
@@ -2940,7 +2953,7 @@ br{
         height: 240px;
     }
     .titulo h2{
-        font-size: 101px;
+        font-size: 82px;
     }
     .galerias .items .descripcion ul li{
         font-size: 19px;
@@ -2948,6 +2961,9 @@ br{
 }
 
 @media ( max-width: 500px ) {
+    .titulo h2{
+        font-size: 78px;
+    }
     .colores .paleta li{
         font-size: 15px;
     }
@@ -3009,9 +3025,6 @@ br{
         width: 85%;
         height: 235px;
     }
-    .titulo h2{
-        font-size: 100px;
-    }
 }
 
 @media ( max-width: 475px ) {
@@ -3034,7 +3047,7 @@ br{
         margin-left: 5%;
     }
     .titulo h2{
-        font-size: 78px;
+        font-size: 73px;
         font-weight: 530;
     }
     .slider img{
@@ -3047,6 +3060,9 @@ br{
 }
 
 @media ( max-width: 450px ) {
+    .listado{
+        margin-top: 0px;
+    }
     .colores .paleta li{
         font-size: 13px;
     }
@@ -3058,7 +3074,7 @@ br{
         border-radius: 10%;
     }
     .listado{
-        margin-top: 70px;
+        margin-top: 20px;
     }
     #cont{
         margin-right: 0;
@@ -3163,7 +3179,7 @@ br{
         padding-right: 10px;
     }
     .titulo h2{
-        font-size: 74px;
+        font-size: 69px;
         font-weight: 500;
     }
     .tejidos{
@@ -3233,7 +3249,7 @@ br{
         border-radius: 10%;
     }
     .listado{
-        margin-top: 70px;
+        margin-top: 20px;
     }
     #cont{
         margin-right: 0;
@@ -3338,7 +3354,7 @@ br{
         padding-right: 10px;
     }
     .titulo h2{
-        font-size: 74px;
+        font-size: 65px;
         font-weight: 500;
     }
     .tejidos{
@@ -3481,7 +3497,7 @@ br{
         height: 180px;
     }
     .titulo h2{
-        font-size: 69px;
+        font-size: 61px;
         font-weight: 500;
     }
     .btn-pedido{
@@ -3611,7 +3627,7 @@ br{
         font-size: 22px;
     }
     .titulo h2{
-        font-size: 64px;
+        font-size: 57px;
         font-weight: 500;
     }
     .galerias .items .descripcion h4{
@@ -3721,7 +3737,7 @@ br{
         height: 160px;
     }
     .titulo h2{
-        font-size: 60px;
+        font-size: 53px;
         font-weight: 500;
     }
     .listado ul li a{
@@ -3751,6 +3767,9 @@ br{
 }
 
 @media ( max-width: 325px ) {
+    .titulo h2{
+        font-size: 50px;
+    }
     .colores .paleta li{
         font-size: 8px;
     }
