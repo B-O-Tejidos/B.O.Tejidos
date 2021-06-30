@@ -70,169 +70,222 @@ export const NuevaBarra = () => {
 
     const history = useHistory();
 
-
+    function ponerBarra() {
+        document.getElementById('buscar').style.display = 'block';
+    }
 
     function handleClick() {
         history.push('/lanas');
+        document.getElementById('buscar').style.display = 'none';
     }
     function handleClick1() {
         history.push('/hilos');
+        document.getElementById('buscar').style.display = 'none';
     }
     function handleClick2() {
         history.push('/tejidos');
+        document.getElementById('buscar').style.display = 'none';
     }
     function handleClick3() {
         history.push('/varios');
+        document.getElementById('buscar').style.display = 'none';
     }
     function handleClick4() {
         history.push('/palillos');
+        document.getElementById('buscar').style.display = 'none';
     }
     function handleClick5() {
         history.push('/crochet');
+        document.getElementById('buscar').style.display = 'none';
     }
     function handleClick6() {
         history.push('/accesorios');
+        document.getElementById('buscar').style.display = 'none';
     }
 
 
     function handleClick7() {
         history.push('/tejidos/chalecos');
+        document.getElementById('buscar').style.display = 'none';
     }
     function handleClick8() {
         history.push('/tejidos/gorros');
+        document.getElementById('buscar').style.display = 'none';
     }
     function handleClick9() {
         history.push('/tejidos/cuellos');
+        document.getElementById('buscar').style.display = 'none';
     }
     function handleClick10() {
         history.push('/tejidos/bufandas');
+        document.getElementById('buscar').style.display = 'none';
     }
     function handleClick11() {
         history.push('/tejidos/guantes');
+        document.getElementById('buscar').style.display = 'none';
     }
     function handleClick12() {
         history.push('/tejidos/calcetines');
+        document.getElementById('buscar').style.display = 'none';
     }
 
 
     function handleClick13() {
         history.push('/lanas/cisne');
+        document.getElementById('buscar').style.display = 'none';
     }
     function handleClick14() {
         history.push('/lanas/ukryl');
+        document.getElementById('buscar').style.display = 'none';
     }
     function handleClick15() {
         history.push('/lanas/reginella');
+        document.getElementById('buscar').style.display = 'none';
     }
     function handleClick16() {
         history.push('/lanas/revesderecho');
+        document.getElementById('buscar').style.display = 'none';
     }
     function handleClick17() {
         history.push('/lanas/faisan');
+        document.getElementById('buscar').style.display = 'none';
     }
     function handleClick18() {
         history.push('/lanas/lanabel');
+        document.getElementById('buscar').style.display = 'none';
     }
     function handleClick19() {
         history.push('/lanas/modista');
+        document.getElementById('buscar').style.display = 'none';
     }
 
 
     function handleClick20() {
         history.push('/hilos/cisne');
+        document.getElementById('buscar').style.display = 'none';
     }
     function handleClick21() {
         history.push('/hilos/ukryl');
+        document.getElementById('buscar').style.display = 'none';
     }
     function handleClick22() {
         history.push('/hilos/reginella');
+        document.getElementById('buscar').style.display = 'none';
     }
     function handleClick23() {
         history.push('/hilos/revesderecho');
+        document.getElementById('buscar').style.display = 'none';
     }
     function handleClick24() {
         history.push('/hilos/faisan');
+        document.getElementById('buscar').style.display = 'none';
     }
     function handleClick25() {
         history.push('/hilos/lanabel');
+        document.getElementById('buscar').style.display = 'none';
     }
     function handleClick26() {
         history.push('/hilos/modista');
+        document.getElementById('buscar').style.display = 'none';
     }
 
 
     function handleClick27() {
         history.push('/palillos/aero');
+        document.getElementById('buscar').style.display = 'none';
     }
     function handleClick28() {
         history.push('/palillos/pony');
+        document.getElementById('buscar').style.display = 'none';
     }
     function handleClick29() {
         history.push('/palillos/knitting_needles');
+        document.getElementById('buscar').style.display = 'none';
     }
     function handleClick30() {
         history.push('/palillos/modista');
+        document.getElementById('buscar').style.display = 'none';
     }
     function handleClick31() {
         history.push('/palillos/revesderecho');
+        document.getElementById('buscar').style.display = 'none';
     }
     function handleClick32() {
         history.push('/palillos/reginella');
+        document.getElementById('buscar').style.display = 'none';
     }
 
     function handleClick33() {
         history.push('/crochet/aero');
+        document.getElementById('buscar').style.display = 'none';
     }
     function handleClick34() {
         history.push('/crochet/pony');
+        document.getElementById('buscar').style.display = 'none';
     }
     function handleClick35() {
         history.push('/crochet/knitting_needles');
+        document.getElementById('buscar').style.display = 'none';
     }
     function handleClick36() {
         history.push('/crochet/modista');
+        document.getElementById('buscar').style.display = 'none';
     }
     function handleClick37() {
         history.push('/crochet/revesderecho');
+        document.getElementById('buscar').style.display = 'none';
     }
     function handleClick38() {
         history.push('/crochet/reginella');
+        document.getElementById('buscar').style.display = 'none';
     }
 
 
     function handleClick39() {
         history.push('/accesorios/huincha-medir');
+        document.getElementById('buscar').style.display = 'none';
     }
     function handleClick40() {
         history.push('/accesorios/aguja-coser');
+        document.getElementById('buscar').style.display = 'none';
     }
     function handleClick41() {
         history.push('/accesorios/aguja-lana');
+        document.getElementById('buscar').style.display = 'none';
     }
     function handleClick42() {
         history.push('/accesorios/tijeras');
+        document.getElementById('buscar').style.display = 'none';
     }
     function handleClick43() {
         history.push('/accesorios/botones');
+        document.getElementById('buscar').style.display = 'none';
     }
     function handleClick44() {
         history.push('/accesorios/marcador-punto');
+        document.getElementById('buscar').style.display = 'none';
     }
     function handleClick45() {
         history.push('/accesorios/marcador-vuelta');
+        document.getElementById('buscar').style.display = 'none';
     }
     function handleClick46() {
         history.push('/accesorios/alfileres');
+        document.getElementById('buscar').style.display = 'none';
     }
     function handleClick47() {
         history.push('/accesorios/alfiler-gancho');
+        document.getElementById('buscar').style.display = 'none';
     }
     function handleClick48() {
         history.push('/accesorios/telares-bastidores');
+        document.getElementById('buscar').style.display = 'none';
     }
     function handleClick49() {
         history.push('/accesorios/elasticos');
+        document.getElementById('buscar').style.display = 'none';
     }
+
 
 
         return (
@@ -247,6 +300,7 @@ export const NuevaBarra = () => {
                         <input
                             type="text" 
                             placeholder="Busca tu producto aqui..."
+                            onClick={ ponerBarra }
                             value={ busca }
                             onChange={ ( ev ) => setBusca( ev.target.value ) }
                         />
@@ -256,6 +310,8 @@ export const NuevaBarra = () => {
                         <ul className="content-table" id="buscar">
 
                             { todoFiltrado.map(( e ) => (
+
+                                 
 
                                 <a> 
                                     <li>
