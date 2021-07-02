@@ -118,6 +118,7 @@ body{
     width: 280px;
     border-radius: 100%;
     margin-bottom: 20px;
+    box-shadow: 0px 0px 25px 0px black;
 }
 
 /*-----------------------------------------------------------------------------------------------------*/
@@ -241,6 +242,50 @@ button{
     display: none;
 }
 
+#buscar1{
+    display: none;
+}
+
+.content-table1{
+    border-radius: 5%;
+    margin-top: 0px;
+    width: 19.5%;
+    max-height: 200px;
+    background-color: blueviolet;
+    border-left: solid 2px #000000;
+    border-right: solid 2px #000000;
+    border-bottom: solid 2px #000000;
+    margin-left: 8px;
+    overflow-y: visible;
+    overflow-x: hidden;
+    transition: all .0s ease;
+}
+.content-table1 a li{
+    text-decoration: none;
+    border: 1px solid #838383;
+}
+
+.content-table1 a button{
+    text-align: center;
+    display: flex;
+    color: #ffffff;
+    background-color: blueviolet;
+    font-size: 23px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 6px solid blueviolet;
+    transition: all .0s ease;
+}
+
+.content-table1 a li:hover{
+    background-color: #ff1d6e;
+}
+
+.content-table1 a button:hover{
+    border: 6px solid #ff1d6e;
+    background-color: #ff1d6e;
+}
+
 .content-table{
     border-radius: 5%;
     margin-top: 2px;
@@ -322,6 +367,7 @@ tbody tr td a:hover{
     color: #ffffff;
     padding-top: 9px;
     transition: all .5s ease;
+    box-shadow: 0px 0px 25px 0px black;
 }
 
 .navbar .contactos .fab:hover{
@@ -1132,6 +1178,7 @@ br{
     font-size: 20px;
     color: #ffffff;
     transition: all .5s ease;
+    box-shadow: 0px 0px 35px 0px black;
 }
 
 .btn-productos a:hover{
@@ -1183,6 +1230,43 @@ br{
 .botn i{
     font-size: 30px;
 }
+.tabla-productos2{
+    margin-left: 35px;
+}
+.fila input{
+    margin-left: 39px;
+    margin-top: 0px;
+    width: 270px;
+    height: 40px;
+    padding: 0 20px;
+    font-size: 18px;
+    color: black;
+    outline: none;
+    border: 3px solid blueviolet;
+    border-radius: 30px;
+    transition: all 0.5s ease;
+    box-shadow: 0px 0px 25px 0px black;
+}
+.botn1{
+    margin-top: 8px;
+    margin-left: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    position: absolute;
+    background-color: blueviolet;
+    width: 50px;
+    height: 50px;
+    line-height: 63px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px 0px black;
+}
+
+.botn1 i{
+    font-size: 30px;
+}
 #cont{
     display: none;
 }
@@ -1196,6 +1280,15 @@ br{
 /*-----------------------------------------------------------------------------------------------------*/
 
 @media ( max-width: 1100px ) {
+    .tabla-productos2{
+        display: none;
+    }
+    .tabla-productos{
+        display: none;
+    }
+    .botn1{
+        display: none;
+    }
     .titulo h2 span{
         display: none;
     }

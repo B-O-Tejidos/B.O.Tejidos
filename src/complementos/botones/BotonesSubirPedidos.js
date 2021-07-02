@@ -10,7 +10,7 @@ export const BotonesSubirPedidos = () => {
                     <a href="#inicio"><i class="fas fa-arrow-up"></i></a>
                 </div>
                 <div className="btn-pedido">
-                    <a href="../"><button type="button" href="#inicio">Haz Tu Pedido Aqui</button></a>                  
+                    <a href="https://api.whatsapp.com/send?phone=56993139457" target="_bank"><button type="button" href="#inicio">Haz Tu Pedido Aqui</button></a>                  
                 </div>
             </div>
 
