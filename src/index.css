@@ -3028,6 +3028,13 @@ br{
     .galerias .items .descripcion h4{
         font-size: 34px;
     }
+    .colores .paleta{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .colores{
+        margin-top: 40px;
+    }
     
 }
 
@@ -3061,14 +3068,28 @@ br{
     .galerias .items .descripcion ul li{
         font-size: 19px;
     }
+    .colores .paleta{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .colores{
+        margin-top: 40px;
+    }
 }
 
 @media ( max-width: 500px ) {
+    .colores .paleta{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .colores{
+        margin-top: 40px;
+    }
     .titulo h2{
         font-size: 78px;
     }
     .colores .paleta li{
-        font-size: 15px;
+        font-size: 18px;
     }
     .img img{
         margin-top: 80px;
@@ -3087,7 +3108,7 @@ br{
         box-sizing: border-box;
     }
     .imagen-siguiente img{
-        margin-top: 50px;
+        margin-top: 20px;
         width: 65px;
         height: 65px;
     }
@@ -3132,10 +3153,10 @@ br{
 
 @media ( max-width: 475px ) {
     .colores .paleta li{
-        font-size: 14px;
+        font-size: 17px;
     }
     .imagen-siguiente img{
-        margin-top: 50px;
+        margin-top: 20px;
         width: 65px;
         height: 65px;
     }
@@ -3167,7 +3188,7 @@ br{
         margin-top: 0px;
     }
     .colores .paleta li{
-        font-size: 13px;
+        font-size: 15px;
     }
     .slider img{
         box-shadow: 0px 0px 10px 0px black;
@@ -3200,8 +3221,8 @@ br{
         justify-content: center;
         align-items: center;
         margin-top:40px;
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
     .botones-ligthbox{
         margin-top: 80px;
@@ -3218,9 +3239,7 @@ br{
     }
     .colores li{
         text-align: center;
-        margin-left: 2px;
-        margin-right: 2px;
-        font-size: 11px;
+        font-size: 15px;
         font-weight: 10px;
     }
     
@@ -3228,7 +3247,7 @@ br{
         text-align: center;
         justify-content: center;
         align-items: center;
-        margin-left: 30%;
+        margin-left: 35%;
         margin-bottom: 0px;
     }    
     .imagen-siguiente img{
@@ -3338,9 +3357,9 @@ br{
     #pie-footer{
         display: none;
     }
-    .colores .paleta{
-        margin-left: 5px;
-        margin-right: 5px;
+    .colores .paleta li{
+        margin-left: 10px;
+        margin-right: 10px;
     }
 }
 
@@ -3376,8 +3395,8 @@ br{
         justify-content: center;
         align-items: center;
         margin-top:40px;
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
     .botones-ligthbox{
         margin-top: 80px;
@@ -3394,8 +3413,8 @@ br{
     }
     .colores li{
         text-align: center;
-        margin-left: 0px;
-        margin-right: 0px;
+        margin-left: 7px;
+        margin-right: 7px;
         font-size: 9px;
         font-weight: 10px;
     }
@@ -3404,7 +3423,7 @@ br{
         text-align: center;
         justify-content: center;
         align-items: center;
-        margin-left: 30%;
+        margin-left: 34%;
         margin-bottom: 0px;
     }    
     .imagen-siguiente img{
@@ -3568,7 +3587,7 @@ br{
         text-align: center;
         margin-left: 2px;
         margin-right: 2px;
-        font-size: 11px;
+        font-size: 13px;
     }
     .colores .paleta{
         line-height: 15px;
@@ -3623,7 +3642,7 @@ br{
         padding-right: 29px;
     }
     .colores .paleta li{
-        font-size: 11px;
+        font-size: 13px;
     }
     .colores{
         max-width: 100%;
@@ -3668,7 +3687,7 @@ br{
         padding-right: 10px;
     }
     .colores label{
-        margin-left: 20%;
+        margin-left: 30%;
     }
     .botones-ligthbox{
         margin-top: 60px;
@@ -3713,7 +3732,7 @@ br{
         text-align: center;
         margin-left: 2px;
         margin-right: 2px;
-        font-size: 9px;
+        font-size: 18px;
     }
     .colores .paleta{
         line-height: 13px;
@@ -3756,14 +3775,14 @@ br{
     
     }
     .colores .paleta li{
-        font-size: 10px;
+        font-size: 11px;
         text-align: center;
     }
 }
 
 @media ( max-width: 350px ) {
     .colores .paleta li{
-        font-size: 9px;
+        font-size: 10px;
     }
     .footer-contacto label{
         font-size: 26px;
@@ -3786,7 +3805,7 @@ br{
         padding-right: 10px;
     }
     .colores label{
-        margin-left: 20%;
+        margin-left: 30%;
     }
     .colores .paleta{
         line-height: 11px;
@@ -3886,7 +3905,7 @@ br{
         font-size: 50px;
     }
     .colores .paleta li{
-        font-size: 8px;
+        font-size: 9px;
     }
     .logo{
         width: 88%;
@@ -3895,7 +3914,7 @@ br{
         padding-right: 10px;
     }
     .colores label{
-        margin-left: 20%;
+        margin-left: 28%;
     }
     .colores .paleta{
         line-height: 10px;
