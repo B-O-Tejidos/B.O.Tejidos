@@ -2,7 +2,6 @@ import React from 'react';
 import { BotonesSubirPedidos } from '../../complementos/botones/BotonesSubirPedidos';
 import { PiePagina } from '../../complementos/footer/PiePagina';
 import { FooterMovil } from '../../complementos/footer/FooterMovil';
-import imagenprueba from '../../WhatsApp Image 2021-06-07 at 23.56.50.jpeg';
 
 export const ReginellaFiltro = () => {
 
@@ -51,7 +50,7 @@ export const ReginellaFiltro = () => {
 
 <div className="model" id="img1">
     <div className="imagen-siguiente">
-        <a href="#imagensiguinete1"><img src={ imagenprueba }/>
+        <a href="#imagensiguinete1"><img src='https://res.cloudinary.com/dhonayfwq/image/upload/v1625198236/WhatsApp_Image_2021-06-07_at_23.56.50_biwyci.jpg'/>
         <br/>
         <span className="p1">HAZ CLICK EN LA IMAGEN PARA VER FICHA</span></a>
     </div>
@@ -82,7 +81,7 @@ export const ReginellaFiltro = () => {
         <span className="p2">HAZ CLICK EN LA IMAGEN PARA VER COLORES</span></a>
     </div>
 <div className="imagenes">
-    <img src={ imagenprueba }/>
+    <img src='https://res.cloudinary.com/dhonayfwq/image/upload/v1625198236/WhatsApp_Image_2021-06-07_at_23.56.50_biwyci.jpg'/>
 </div>
 <div className="botones-ligthbox">
     <a className="cerrar" href="#img.0">X</a>
@@ -97,7 +96,7 @@ export const ReginellaFiltro = () => {
         <span className="p1">HAZ CLICK EN LA IMAGEN PARA VER LANAS</span></a>
     </div>
     <div className="imagen-siguiente">
-        <a href="#imagensiguinete1"><img src={ imagenprueba }/>
+        <a href="#imagensiguinete1"><img src='https://res.cloudinary.com/dhonayfwq/image/upload/v1625198236/WhatsApp_Image_2021-06-07_at_23.56.50_biwyci.jpg'/>
         <br/>
         <span className="p2">HAZ CLICK EN LA IMAGEN PARA VER FICHA</span></a>
     </div>
@@ -119,7 +118,7 @@ export const ReginellaFiltro = () => {
         <span className="p1">HAZ CLICK EN LA IMAGEN PARA VER LANAS</span></a>
     </div>
     <div className="imagen-siguiente">
-        <a href="#imagensiguinete1"><img src={ imagenprueba }/>
+        <a href="#imagensiguinete1"><img src='https://res.cloudinary.com/dhonayfwq/image/upload/v1625198236/WhatsApp_Image_2021-06-07_at_23.56.50_biwyci.jpg'/>
         <br/>
         <span className="p2">HAZ CLICK EN LA IMAGEN PARA VER FICHA</span></a>
     </div>

@@ -2674,7 +2674,8 @@ br{
         justify-content: center;
         align-items: center;
         margin-top:81px;
-        margin-left: 12%;
+        margin-left: 20px;
+        margin-right: 20px;
     }
     .botones-ligthbox{
         margin-top: 80px;
@@ -3198,8 +3199,9 @@ br{
         text-align: center;
         justify-content: center;
         align-items: center;
-        margin-top:81px;
-        margin-left: 12%;
+        margin-top:40px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     .botones-ligthbox{
         margin-top: 80px;
@@ -3218,7 +3220,7 @@ br{
         text-align: center;
         margin-left: 2px;
         margin-right: 2px;
-        font-size: 12px;
+        font-size: 11px;
         font-weight: 10px;
     }
     
@@ -3230,7 +3232,7 @@ br{
         margin-bottom: 0px;
     }    
     .imagen-siguiente img{
-        margin-top: 50px;
+        margin-top: 10px;
         width: 60px;
         height: 60px;
     }
@@ -3373,8 +3375,9 @@ br{
         text-align: center;
         justify-content: center;
         align-items: center;
-        margin-top:81px;
-        margin-left: 12%;
+        margin-top:40px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     .botones-ligthbox{
         margin-top: 80px;
@@ -3391,9 +3394,9 @@ br{
     }
     .colores li{
         text-align: center;
-        margin-left: 2px;
-        margin-right: 2px;
-        font-size: 12px;
+        margin-left: 0px;
+        margin-right: 0px;
+        font-size: 9px;
         font-weight: 10px;
     }
     
@@ -3405,7 +3408,7 @@ br{
         margin-bottom: 0px;
     }    
     .imagen-siguiente img{
-        margin-top: 50px;
+        margin-top: 10px;
         width: 60px;
         height: 60px;
     }
@@ -3530,7 +3533,7 @@ br{
         margin-top: 55px;
     }
     .imagen-siguiente img{
-        margin-top: 30px;
+        margin-top: 10px;
         width: 60px;
         height: 60px;
     }
@@ -3620,7 +3623,17 @@ br{
         padding-right: 29px;
     }
     .colores .paleta li{
-        font-size: 12px;
+        font-size: 11px;
+    }
+    .colores{
+        max-width: 100%;
+        display: inline-block;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-top:40px;
+        margin-left: 5px;
+        margin-right: 5px;
     }
 }
 
